@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Udyam Registration Portal — MOCK</title>
+  <style>
+    /* Test fixture styles. We keep CSS tiny and self-contained. */
+    body { font-family: system-ui, sans-serif; margin: 24px; color: #222; }
+    h1 { font-size: 18px; }
+    section[data-step] { display: none; border: 1px solid #ccc; padding: 16px; border-radius: 8px; max-width: 640px; }
+    section[data-step].active { display: block; }
+    label { display: block; margin: 8px 0 4px; font-size: 13px; }
+    input, select, textarea { width: 100%; padding: 6px; font-size: 14px; box-sizing: border-box; }
+    textarea { min-height: 60px; }
+    button { margin-top: 12px; padding: 8px 16px; font-size: 14px; cursor: pointer; }
+    .banner { display: none; padding: 8px; margin: 8px 0; border-radius: 4px; }
+    .banner.error { display: block; background: #fee; color: #900; border: 1px solid #fcc; }
+    .nic-suggestion { display: block; padding: 4px; cursor: pointer; }
+    .nic-suggestion:hover { background: #eef; }
+    #success_heading { display: none; }
+    #success_heading.shown { display: block; color: #080; }
+  </style>
+</head>
+<body>
+
+<h1>Udyam Registration Portal (MOCK)</h1>
+
+<!-- ============================================================ -->
+<!-- Step 1 — Aadhaar -->
+<!-- ============================================================ -->
+<section data-step="aadhaar" class="active">
+  <h2>Step 1 — Aadhaar</h2>
+  <div id="aadhaar_invalid" class="banner error">Invalid Aadhaar</div>
+  <div id="captcha_frame" style="display:none">captcha iframe placeholder</div>
+  <label for="aadhaar_number">Aadhaar Number</label>
+  <input id="aadhaar_number" type="text" inputmode="numeric" pattern="\d*" autocomplete="off">
+  <button id="btn_validate_generate_otp" type="button">Validate &amp; Generate OTP</button>
+</section>
+
+<!-- ============================================================ -->
+<!-- Step 2 — OTP -->
+<!-- ============================================================ -->
+<section data-step="otp">
+  <h2>Step 2 — Aadhaar OTP</h2>
+  <label for="aadhaar_otp">Enter the 6-digit OTP sent to your linked mobile</label>
+  <input id="aadhaar_otp" type="text" inputmode="numeric" pattern="\d{6}" maxlength="6">
+  <button id="btn_verify_otp" type="button">Verify</button>
+</section>
+
+<!-- ============================================================ -->
+<!-- Step 3 — PAN -->
+<!-- ============================================================ -->
+<section data-step="pan">
+  <h2>Step 3 — PAN Validation</h2>
+  <div id="pan_already_registered" class="banner error">PAN already registered</div>
+  <label for="pan_number">PAN</label>
+  <input id="pan_number" type="text" autocomplete="off">
+  <button id="btn_validate_pan" type="button">Validate PAN</button>
+</section>
+
+<!-- ============================================================ -->
+<!-- Step 4 — Main form -->
+<!-- ============================================================ -->
+<section data-step="form">
+  <h2>Step 4 — Enterprise Details</h2>
+
+  <label for="organisation_name">Name of Enterprise / Business</label>
+  <input id="organisation_name" type="text">
+
+  <label for="organisation_type">Type of Organisation</label>
+  <select id="organisation_type">
+    <option value="Proprietorship">Proprietorship</option>
+    <option value="Partnership">Partnership</option>
+    <option value="LLP">Limited Liability Partnership</option>
+    <option value="Private Limited">Private Limited Company</option>
+  </select>
+
+  <label for="official_address">Official Address</label>
+  <textarea id="official_address"></textarea>
+
+  <label for="nic_code">NIC Code (search)</label>
+  <input id="nic_code" type="text" placeholder="e.g. 10104">
+  <div id="nic_suggestion_first" class="nic-suggestion" style="display:none">10104 — Processing and preserving of meat</div>
+
+  <label for="male_employees">Male Employees</label>
+  <input id="male_employees" type="number" min="0">
+
+  <label for="female_employees">Female Employees</label>
+  <input id="female_employees" type="number" min="0">
+
+  <label for="other_employees">Other Employees</label>
+  <input id="other_employees" type="number" min="0">
+
+  <label>
+    <input id="no_child_labour" type="checkbox" checked> No child labour employed
+  </label>
+
+  <label for="net_investment">Net Investment (INR)</label>
+  <input id="net_investment" type="number" min="0">
+
+  <label for="total_turnover">Total Turnover (INR)</label>
+  <input id="total_turnover" type="number" min="0">
+
+  <h3>Opt-in programmes</h3>
+  <label><input id="opt_gem" type="checkbox"> Government e-Marketplace (GeM)</label>
+  <label><input id="opt_treds" type="checkbox"> TReDS</label>
+  <label><input id="opt_ncs" type="checkbox"> National Career Service</label>
+  <label><input id="opt_nsic" type="checkbox"> NSIC B2B portal</label>
+
+  <label for="dic_name">District Industries Centre (DIC)</label>
+  <input id="dic_name" type="text">
+</section>
+
+<!-- ============================================================ -->
+<!-- Step 5 — Final review + Submit -->
+<!-- ============================================================ -->
+<section data-step="review">
+  <h2>Step 5 — Review &amp; Submit</h2>
+  <p>Please review your application before final submission.</p>
+  <button id="btn_submit" type="button">Submit Application</button>
+</section>
+
+<!-- ============================================================ -->
+<!-- Step 6 — Success -->
+<!-- ============================================================ -->
+<section data-step="success">
+  <h2 id="success_heading">Registration Successful</h2>
+  <p>Your Udyam Registration Number is:</p>
+  <h2 id="uan-value">UDYAM-XX-00-0000000</h2>
+  <a id="download_link" href="/sample_cert.pdf" download>Download Certificate (PDF)</a>
+</section>
+
+<!-- ============================================================ -->
+<!-- Client-side step transitions. Pure JS, no server state.       -->
+<!-- Each transition button unhides the next section and hides     -->
+<!-- the current one. Validation banners (#aadhaar_invalid,         -->
+<!-- #pan_already_registered) are visible if their data-* flag      -->
+<!-- is set on the URL. This lets tests trigger error matrix       -->
+<!-- paths via ?captcha=1 or ?invalid_aadhaar=1 without writing    -->
+<!-- server logic.                                                  -->
+<!-- ============================================================ -->
+<script>
+(function () {
+  'use strict';
+
+  function showStep(name) {
+    var sections = document.querySelectorAll('section[data-step]');
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].getAttribute('data-step') === name) {
+        sections[i].classList.add('active');
+      } else {
+        sections[i].classList.remove('active');
+      }
+    }
+  }
+
+  function readQuery() {
+    var p = {};
+    var s = window.location.search.replace(/^\?/, '');
+    if (!s) { return p; }
+    var pairs = s.split('&');
+    for (var i = 0; i < pairs.length; i++) {
+      var kv = pairs[i].split('=');
+      p[decodeURIComponent(kv[0])] = decodeURIComponent(kv[1] || '');
+    }
+    return p;
+  }
+
+  var q = readQuery();
+
+  // Error-matrix hooks — tests pass ?invalid_aadhaar=1 to simulate
+  // the portal rejecting the Aadhaar after Validate.
+  if (q.invalid_aadhaar === '1') {
+    document.getElementById('aadhaar_invalid').style.display = 'block';
+  }
+  if (q.captcha === '1') {
+    document.getElementById('captcha_frame').style.display = 'block';
+  }
+  if (q.pan_duplicate === '1') {
+    document.getElementById('pan_already_registered').style.display = 'block';
+  }
+
+  // Wire up the step buttons.
+  document.getElementById('btn_validate_generate_otp').addEventListener('click', function () {
+    if (q.invalid_aadhaar === '1') { return; }
+    showStep('otp');
+  });
+  document.getElementById('btn_verify_otp').addEventListener('click', function () {
+    showStep('pan');
+  });
+  document.getElementById('btn_validate_pan').addEventListener('click', function () {
+    if (q.pan_duplicate === '1') { return; }
+    showStep('form');
+  });
+  document.getElementById('nic_code').addEventListener('input', function (e) {
+    var v = e.target.value || '';
+    var sug = document.getElementById('nic_suggestion_first');
+    sug.style.display = v.length >= 2 ? 'block' : 'none';
+  });
+  document.getElementById('nic_suggestion_first').addEventListener('click', function () {
+    document.getElementById('nic_code').value = '10104';
+    document.getElementById('nic_suggestion_first').style.display = 'none';
+  });
+  // No dedicated "Continue" button on the form step — the test simulates
+  // jumping to review via a hidden hook below.
+  if (q.auto_review === '1') {
+    setTimeout(function () { showStep('review'); }, 0);
+  }
+  document.getElementById('btn_submit').addEventListener('click', function () {
+    showStep('success');
+    document.getElementById('success_heading').classList.add('shown');
+    // Stamp a unique UAN every submit so multiple test runs don't
+    // collide on the certificates.registration_number UNIQUE constraint.
+    var unique = Date.now().toString().slice(-7);
+    var padded = ('0000000' + unique).slice(-7);
+    document.getElementById('uan-value').textContent = 'UDYAM-XX-00-' + padded;
+  });
+})();
+</script>
+
+</body>
+</html>

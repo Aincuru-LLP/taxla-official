@@ -1,0 +1,6986 @@
+[
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0111",
+    "nic_5digit": "01111",
+    "description": "Growing of wheat"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0111",
+    "nic_5digit": "01112",
+    "description": "Growing of jowar, bajra and millets"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0111",
+    "nic_5digit": "01113",
+    "description": "Growing of other cereals n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0111",
+    "nic_5digit": "01114",
+    "description": "Growing of pulses (dal) and other leguminous crops"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0112",
+    "nic_5digit": "01121",
+    "description": "Growing of paddy"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0112",
+    "nic_5digit": "01122",
+    "description": "Growing of other rice n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0113",
+    "nic_5digit": "01131",
+    "description": "Growing of leafy and stem vegetables"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0113",
+    "nic_5digit": "01132",
+    "description": "Growing of melons and roots/tubers"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0113",
+    "nic_5digit": "01133",
+    "description": "Growing of mushroom and truffles"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0113",
+    "nic_5digit": "01134",
+    "description": "Growing of other vegetables n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0114",
+    "nic_5digit": "01141",
+    "description": "Growing of sugar cane"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0114",
+    "nic_5digit": "01142",
+    "description": "Growing of sugar beet"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0115",
+    "nic_5digit": "01150",
+    "description": "Growing of tobacco"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0116",
+    "nic_5digit": "01161",
+    "description": "Growing of cotton"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0116",
+    "nic_5digit": "01162",
+    "description": "Growing of jute and other fibre crops"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0117",
+    "nic_5digit": "01171",
+    "description": "Growing of oilseeds"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0117",
+    "nic_5digit": "01172",
+    "description": "Growing of groundnuts"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0118",
+    "nic_5digit": "01180",
+    "description": "Growing of other non-perennial crops n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0119",
+    "nic_5digit": "01191",
+    "description": "Growing of flowers and nursery products"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0119",
+    "nic_5digit": "01192",
+    "description": "Growing of horticultural crops n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0121",
+    "nic_5digit": "01210",
+    "description": "Growing of grapes"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01221",
+    "description": "Growing of mangoes"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01222",
+    "description": "Growing of bananas, plantains and other tropical fruits"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01223",
+    "description": "Growing of citrus fruits"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01224",
+    "description": "Growing of pome fruits and stone fruits (apples, pears, peaches)"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01225",
+    "description": "Growing of berries and other small fruits"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0122",
+    "nic_5digit": "01229",
+    "description": "Growing of other tree and bush fruits n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0123",
+    "nic_5digit": "01231",
+    "description": "Growing of coconuts"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0123",
+    "nic_5digit": "01232",
+    "description": "Growing of cashew nuts"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0123",
+    "nic_5digit": "01233",
+    "description": "Growing of areca nuts"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0123",
+    "nic_5digit": "01239",
+    "description": "Growing of other tree nuts n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0124",
+    "nic_5digit": "01241",
+    "description": "Growing of tea"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0124",
+    "nic_5digit": "01242",
+    "description": "Growing of coffee"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0125",
+    "nic_5digit": "01250",
+    "description": "Growing of spices, aromatic, drug and pharmaceutical crops"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0126",
+    "nic_5digit": "01260",
+    "description": "Growing of rubber trees"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0127",
+    "nic_5digit": "01271",
+    "description": "Growing of perennial crops for beverage production"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0127",
+    "nic_5digit": "01279",
+    "description": "Growing of other perennial crops n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0128",
+    "nic_5digit": "01281",
+    "description": "Growing of plants for vegetable fibre"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0128",
+    "nic_5digit": "01289",
+    "description": "Growing of other perennial crops"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0129",
+    "nic_5digit": "01291",
+    "description": "Growing of live plants for ornamental purposes"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0129",
+    "nic_5digit": "01299",
+    "description": "Growing of other tree and shrub crops and bushes n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0130",
+    "nic_5digit": "01301",
+    "description": "Plant propagation"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0130",
+    "nic_5digit": "01302",
+    "description": "Forest tree nurseries"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0141",
+    "nic_5digit": "01410",
+    "description": "Raising of cattle and buffaloes"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0142",
+    "nic_5digit": "01420",
+    "description": "Raising of horses and other equines"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0143",
+    "nic_5digit": "01430",
+    "description": "Raising of camels and camelids"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0144",
+    "nic_5digit": "01440",
+    "description": "Raising of sheep and goats"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0145",
+    "nic_5digit": "01450",
+    "description": "Raising of swine/pigs"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0146",
+    "nic_5digit": "01461",
+    "description": "Raising and breeding of poultry (chickens)"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0146",
+    "nic_5digit": "01462",
+    "description": "Raising of ducks, geese and other poultry"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0149",
+    "nic_5digit": "01491",
+    "description": "Raising of rabbits and other fur-bearing animals"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0149",
+    "nic_5digit": "01492",
+    "description": "Raising of bees for honey and beeswax"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0149",
+    "nic_5digit": "01493",
+    "description": "Raising of silkworms and sericulture"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0149",
+    "nic_5digit": "01499",
+    "description": "Raising of other animals n.e.c."
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0150",
+    "nic_5digit": "01500",
+    "description": "Mixed farming"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0161",
+    "nic_5digit": "01610",
+    "description": "Support activities for crop production"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0162",
+    "nic_5digit": "01620",
+    "description": "Support activities for animal production"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0163",
+    "nic_5digit": "01630",
+    "description": "Post-harvest crop activities"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0164",
+    "nic_5digit": "01640",
+    "description": "Seed processing for propagation"
+  },
+  {
+    "nic_2digit": "01",
+    "nic_4digit": "0170",
+    "nic_5digit": "01700",
+    "description": "Hunting, trapping and related service activities"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0210",
+    "nic_5digit": "02101",
+    "description": "Forest planting and reafforestation"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0210",
+    "nic_5digit": "02102",
+    "description": "Silvicultural activities"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0210",
+    "nic_5digit": "02109",
+    "description": "Other forestry activities n.e.c."
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0220",
+    "nic_5digit": "02201",
+    "description": "Logging and felling of trees"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0220",
+    "nic_5digit": "02202",
+    "description": "Gathering of forest products (gum, lac, resins)"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0230",
+    "nic_5digit": "02300",
+    "description": "Gathering of non-wood forest products"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0240",
+    "nic_5digit": "02401",
+    "description": "Forestry support services"
+  },
+  {
+    "nic_2digit": "02",
+    "nic_4digit": "0240",
+    "nic_5digit": "02409",
+    "description": "Other support services to forestry n.e.c."
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0311",
+    "nic_5digit": "03111",
+    "description": "Fishing on a commercial basis in ocean and coastal waters"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0311",
+    "nic_5digit": "03112",
+    "description": "Deep-sea fishing"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0311",
+    "nic_5digit": "03113",
+    "description": "Shrimp fishing"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0311",
+    "nic_5digit": "03119",
+    "description": "Other marine fishing n.e.c."
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0312",
+    "nic_5digit": "03121",
+    "description": "Inland fishing on a commercial basis"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0312",
+    "nic_5digit": "03122",
+    "description": "River and lake fishing"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0321",
+    "nic_5digit": "03210",
+    "description": "Marine aquaculture"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0322",
+    "nic_5digit": "03221",
+    "description": "Freshwater aquaculture"
+  },
+  {
+    "nic_2digit": "03",
+    "nic_4digit": "0322",
+    "nic_5digit": "03222",
+    "description": "Fish farming in rice fields"
+  },
+  {
+    "nic_2digit": "05",
+    "nic_4digit": "0510",
+    "nic_5digit": "05101",
+    "description": "Mining of hard coal (anthracite, bituminous)"
+  },
+  {
+    "nic_2digit": "05",
+    "nic_4digit": "0510",
+    "nic_5digit": "05102",
+    "description": "Mining of lignite (brown coal)"
+  },
+  {
+    "nic_2digit": "05",
+    "nic_4digit": "0510",
+    "nic_5digit": "05103",
+    "description": "Mining of peat"
+  },
+  {
+    "nic_2digit": "05",
+    "nic_4digit": "0520",
+    "nic_5digit": "05201",
+    "description": "Mining of coking coal"
+  },
+  {
+    "nic_2digit": "05",
+    "nic_4digit": "0520",
+    "nic_5digit": "05209",
+    "description": "Other mining of coal n.e.c."
+  },
+  {
+    "nic_2digit": "06",
+    "nic_4digit": "0610",
+    "nic_5digit": "06101",
+    "description": "Offshore extraction of crude petroleum"
+  },
+  {
+    "nic_2digit": "06",
+    "nic_4digit": "0610",
+    "nic_5digit": "06102",
+    "description": "Onshore extraction of crude petroleum"
+  },
+  {
+    "nic_2digit": "06",
+    "nic_4digit": "0620",
+    "nic_5digit": "06201",
+    "description": "Production of natural gas from offshore fields"
+  },
+  {
+    "nic_2digit": "06",
+    "nic_4digit": "0620",
+    "nic_5digit": "06202",
+    "description": "Production of natural gas from onshore fields"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0710",
+    "nic_5digit": "07101",
+    "description": "Mining of iron ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0710",
+    "nic_5digit": "07102",
+    "description": "Mining of manganese ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0721",
+    "nic_5digit": "07210",
+    "description": "Mining of uranium and thorium ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07291",
+    "description": "Mining of copper ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07292",
+    "description": "Mining of bauxite"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07293",
+    "description": "Mining of lead and zinc ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07294",
+    "description": "Mining of gold"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07295",
+    "description": "Mining of silver"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07296",
+    "description": "Mining of tin ores"
+  },
+  {
+    "nic_2digit": "07",
+    "nic_4digit": "0729",
+    "nic_5digit": "07299",
+    "description": "Mining of other non-ferrous metal ores n.e.c."
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08101",
+    "description": "Quarrying of marble"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08102",
+    "description": "Quarrying of granite"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08103",
+    "description": "Quarrying of sandstone"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08104",
+    "description": "Quarrying of limestone"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08105",
+    "description": "Quarrying of slate"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08106",
+    "description": "Quarrying of sand for construction"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08107",
+    "description": "Quarrying of gravel and crushed stone"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08108",
+    "description": "Quarrying of clay and kaolin"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0810",
+    "nic_5digit": "08109",
+    "description": "Quarrying of other stone n.e.c."
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08911",
+    "description": "Mining of chemical and fertilizer minerals"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08912",
+    "description": "Mining of native sulphur"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08913",
+    "description": "Mining of phosphates"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08914",
+    "description": "Mining of potash"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08915",
+    "description": "Mining of salt"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0891",
+    "nic_5digit": "08919",
+    "description": "Mining of other chemical and fertilizer minerals n.e.c."
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0892",
+    "nic_5digit": "08921",
+    "description": "Extraction of peat"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0892",
+    "nic_5digit": "08922",
+    "description": "Extraction of gems and ornamental stones"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0893",
+    "nic_5digit": "08931",
+    "description": "Mining of mica"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0893",
+    "nic_5digit": "08932",
+    "description": "Mining of asbestos"
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0893",
+    "nic_5digit": "08939",
+    "description": "Mining of other non-metallic minerals n.e.c."
+  },
+  {
+    "nic_2digit": "08",
+    "nic_4digit": "0899",
+    "nic_5digit": "08999",
+    "description": "Other mining and quarrying n.e.c."
+  },
+  {
+    "nic_2digit": "09",
+    "nic_4digit": "0910",
+    "nic_5digit": "09101",
+    "description": "Drilling of oil and gas wells on a contract basis"
+  },
+  {
+    "nic_2digit": "09",
+    "nic_4digit": "0910",
+    "nic_5digit": "09102",
+    "description": "Oil and gas field support activities on a contract basis"
+  },
+  {
+    "nic_2digit": "09",
+    "nic_4digit": "0990",
+    "nic_5digit": "09901",
+    "description": "Support activities for hard coal and lignite mining"
+  },
+  {
+    "nic_2digit": "09",
+    "nic_4digit": "0990",
+    "nic_5digit": "09902",
+    "description": "Support activities for metal ore mining"
+  },
+  {
+    "nic_2digit": "09",
+    "nic_4digit": "0990",
+    "nic_5digit": "09909",
+    "description": "Support activities for other mining and quarrying n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1010",
+    "nic_5digit": "10101",
+    "description": "Processing and preserving of meat"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1010",
+    "nic_5digit": "10102",
+    "description": "Slaughtering of animals and preparation of meat"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1010",
+    "nic_5digit": "10103",
+    "description": "Production of meat products (sausages, ham, bacon)"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1010",
+    "nic_5digit": "10104",
+    "description": "Rendering of lard and other animal fats"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1010",
+    "nic_5digit": "10109",
+    "description": "Other processing and preserving of meat n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1020",
+    "nic_5digit": "10201",
+    "description": "Processing and preserving of fish"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1020",
+    "nic_5digit": "10202",
+    "description": "Production of fishmeal"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1020",
+    "nic_5digit": "10209",
+    "description": "Other processing and preserving of fish n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1030",
+    "nic_5digit": "10301",
+    "description": "Processing and preserving of fruit and vegetables"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1030",
+    "nic_5digit": "10302",
+    "description": "Manufacture of fruit and vegetable juices"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1030",
+    "nic_5digit": "10303",
+    "description": "Manufacture of jams, jellies and marmalades"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1030",
+    "nic_5digit": "10304",
+    "description": "Manufacture of pickles and chutneys"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1030",
+    "nic_5digit": "10309",
+    "description": "Other processing of fruits and vegetables n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1040",
+    "nic_5digit": "10401",
+    "description": "Manufacture of vegetable oils (mustard, groundnut, coconut)"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1040",
+    "nic_5digit": "10402",
+    "description": "Manufacture of hydrogenated oils and vanaspati ghee"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1040",
+    "nic_5digit": "10403",
+    "description": "Manufacture of refined and blended oils"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1040",
+    "nic_5digit": "10404",
+    "description": "Manufacture of oil cakes and other solid residues"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1040",
+    "nic_5digit": "10409",
+    "description": "Manufacture of other vegetable oils and fats n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10501",
+    "description": "Manufacture of pasteurised milk and cream"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10502",
+    "description": "Manufacture of milk powder, ice cream and other dairy products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10503",
+    "description": "Manufacture of butter, ghee and cheese"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10504",
+    "description": "Manufacture of flavoured and aerated milk drinks"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10505",
+    "description": "Manufacture of condensed and evaporated milk"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1050",
+    "nic_5digit": "10509",
+    "description": "Manufacture of other dairy products n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1061",
+    "nic_5digit": "10611",
+    "description": "Flour milling"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1061",
+    "nic_5digit": "10612",
+    "description": "Rice milling"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1061",
+    "nic_5digit": "10613",
+    "description": "Dal (pulses) milling"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1061",
+    "nic_5digit": "10614",
+    "description": "Manufacture of flour mixes and dough"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1061",
+    "nic_5digit": "10619",
+    "description": "Other grain milling n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1062",
+    "nic_5digit": "10621",
+    "description": "Manufacture of starches and starch products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1062",
+    "nic_5digit": "10622",
+    "description": "Manufacture of glucose and glucose syrup"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1062",
+    "nic_5digit": "10623",
+    "description": "Manufacture of sago and sago products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1071",
+    "nic_5digit": "10711",
+    "description": "Manufacture of bread"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1071",
+    "nic_5digit": "10712",
+    "description": "Manufacture of biscuits, cakes, pastries and other bakery products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1072",
+    "nic_5digit": "10721",
+    "description": "Manufacture of sugar from sugar cane"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1072",
+    "nic_5digit": "10722",
+    "description": "Manufacture of khandsari sugar"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1072",
+    "nic_5digit": "10723",
+    "description": "Manufacture of 'gur' (jaggery)"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1072",
+    "nic_5digit": "10729",
+    "description": "Manufacture of other sugar n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1073",
+    "nic_5digit": "10731",
+    "description": "Manufacture of cocoa products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1073",
+    "nic_5digit": "10732",
+    "description": "Manufacture of chocolate and sugar confectionery"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1073",
+    "nic_5digit": "10733",
+    "description": "Manufacture of chewing gum"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1073",
+    "nic_5digit": "10734",
+    "description": "Manufacture of toffees and caramels"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1073",
+    "nic_5digit": "10739",
+    "description": "Manufacture of other cocoa, chocolate and sugar confectionery n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1074",
+    "nic_5digit": "10740",
+    "description": "Manufacture of macaroni, noodles, couscous and similar farinaceous products"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1075",
+    "nic_5digit": "10750",
+    "description": "Manufacture of prepared meals and dishes"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10791",
+    "description": "Processing of tea"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10792",
+    "description": "Processing of coffee"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10793",
+    "description": "Manufacture of coffee substitutes"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10794",
+    "description": "Manufacture of spice powders and condiments"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10795",
+    "description": "Processing of salt into food-grade salt"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10796",
+    "description": "Manufacture of papad"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1079",
+    "nic_5digit": "10799",
+    "description": "Manufacture of other food products n.e.c."
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1080",
+    "nic_5digit": "10801",
+    "description": "Manufacture of cattle feed"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1080",
+    "nic_5digit": "10802",
+    "description": "Manufacture of poultry feed"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1080",
+    "nic_5digit": "10803",
+    "description": "Manufacture of fish feed"
+  },
+  {
+    "nic_2digit": "10",
+    "nic_4digit": "1080",
+    "nic_5digit": "10809",
+    "description": "Manufacture of other prepared animal feeds n.e.c."
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1101",
+    "nic_5digit": "11011",
+    "description": "Manufacture of distilled spirits (whisky, brandy, gin)"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1101",
+    "nic_5digit": "11012",
+    "description": "Manufacture of country liquor"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1101",
+    "nic_5digit": "11013",
+    "description": "Rectification and blending of spirits"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1102",
+    "nic_5digit": "11020",
+    "description": "Manufacture of wines"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1103",
+    "nic_5digit": "11031",
+    "description": "Manufacture of beer"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1103",
+    "nic_5digit": "11032",
+    "description": "Manufacture of malt liquors"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1104",
+    "nic_5digit": "11041",
+    "description": "Manufacture of aerated soft drinks and bottled water"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1104",
+    "nic_5digit": "11042",
+    "description": "Manufacture of synthetic flavoured concentrates"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1104",
+    "nic_5digit": "11043",
+    "description": "Manufacture of mineral water"
+  },
+  {
+    "nic_2digit": "11",
+    "nic_4digit": "1104",
+    "nic_5digit": "11049",
+    "description": "Manufacture of other non-alcoholic beverages n.e.c."
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12001",
+    "description": "Manufacture of bidi"
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12002",
+    "description": "Manufacture of cigarettes"
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12003",
+    "description": "Manufacture of cigars and cheroots"
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12004",
+    "description": "Manufacture of zarda and chewing tobacco"
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12005",
+    "description": "Manufacture of snuff"
+  },
+  {
+    "nic_2digit": "12",
+    "nic_4digit": "1200",
+    "nic_5digit": "12009",
+    "description": "Manufacture of other tobacco products n.e.c."
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1311",
+    "nic_5digit": "13111",
+    "description": "Preparation and spinning of cotton fibre"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1311",
+    "nic_5digit": "13112",
+    "description": "Preparation and spinning of silk fibre"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1311",
+    "nic_5digit": "13113",
+    "description": "Preparation and spinning of wool"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1311",
+    "nic_5digit": "13119",
+    "description": "Preparation and spinning of other vegetable and animal fibres n.e.c."
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1312",
+    "nic_5digit": "13121",
+    "description": "Weaving of cotton and cotton mixture fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1312",
+    "nic_5digit": "13122",
+    "description": "Weaving of silk and silk mixture fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1312",
+    "nic_5digit": "13123",
+    "description": "Weaving of wool and wool mixture fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1312",
+    "nic_5digit": "13124",
+    "description": "Weaving of man-made fibre fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1312",
+    "nic_5digit": "13129",
+    "description": "Weaving of other textiles n.e.c."
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1313",
+    "nic_5digit": "13130",
+    "description": "Finishing of textiles"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1391",
+    "nic_5digit": "13911",
+    "description": "Manufacture of knitted and crocheted fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1391",
+    "nic_5digit": "13912",
+    "description": "Manufacture of hosiery yarn"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1392",
+    "nic_5digit": "13921",
+    "description": "Manufacture of made-up textile articles (curtains, bedspreads)"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1392",
+    "nic_5digit": "13922",
+    "description": "Manufacture of tarpaulin and other canvas goods"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1392",
+    "nic_5digit": "13923",
+    "description": "Manufacture of tents and related goods"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1392",
+    "nic_5digit": "13929",
+    "description": "Manufacture of other made-up textile articles n.e.c."
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1393",
+    "nic_5digit": "13931",
+    "description": "Manufacture of carpets and other textile floor coverings"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1393",
+    "nic_5digit": "13932",
+    "description": "Manufacture of durries and other floor coverings"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1394",
+    "nic_5digit": "13941",
+    "description": "Manufacture of cordage and rope"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1394",
+    "nic_5digit": "13942",
+    "description": "Manufacture of netting"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1394",
+    "nic_5digit": "13943",
+    "description": "Manufacture of twine"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1394",
+    "nic_5digit": "13949",
+    "description": "Manufacture of other cordage and rope products n.e.c."
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13991",
+    "description": "Manufacture of felt and non-woven fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13992",
+    "description": "Manufacture of narrow fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13993",
+    "description": "Manufacture of embroidery products"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13994",
+    "description": "Manufacture of lace and lace articles"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13995",
+    "description": "Manufacture of coated fabrics"
+  },
+  {
+    "nic_2digit": "13",
+    "nic_4digit": "1399",
+    "nic_5digit": "13999",
+    "description": "Manufacture of other textiles n.e.c."
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14101",
+    "description": "Manufacture of all types of textile garments and clothing accessories"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14102",
+    "description": "Manufacture of raincoats of waterproof woven fabrics"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14103",
+    "description": "Manufacture of uniforms and workwear"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14104",
+    "description": "Manufacture of ethnic wear (sarees, dhotis)"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14105",
+    "description": "Manufacture of baby garments"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1410",
+    "nic_5digit": "14109",
+    "description": "Manufacture of other wearing apparel n.e.c."
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1420",
+    "nic_5digit": "14201",
+    "description": "Manufacture of fur and fur articles"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1420",
+    "nic_5digit": "14209",
+    "description": "Manufacture of other articles of fur n.e.c."
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1430",
+    "nic_5digit": "14301",
+    "description": "Manufacture of knitted and crocheted hosiery"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1430",
+    "nic_5digit": "14302",
+    "description": "Manufacture of knitted and crocheted pullovers, cardigans"
+  },
+  {
+    "nic_2digit": "14",
+    "nic_4digit": "1430",
+    "nic_5digit": "14309",
+    "description": "Manufacture of other knitted and crocheted apparel n.e.c."
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1511",
+    "nic_5digit": "15111",
+    "description": "Flaying and curing of raw hides and skins"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1511",
+    "nic_5digit": "15112",
+    "description": "Tanning and finishing of leather"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1512",
+    "nic_5digit": "15121",
+    "description": "Manufacture of travel goods, handbags, belts and saddlery"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1512",
+    "nic_5digit": "15122",
+    "description": "Manufacture of luggage, suitcases and similar articles"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1512",
+    "nic_5digit": "15123",
+    "description": "Manufacture of purses, wallets and similar articles"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1512",
+    "nic_5digit": "15129",
+    "description": "Manufacture of other leather goods n.e.c."
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1520",
+    "nic_5digit": "15201",
+    "description": "Manufacture of leather footwear"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1520",
+    "nic_5digit": "15202",
+    "description": "Manufacture of rubber footwear"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1520",
+    "nic_5digit": "15203",
+    "description": "Manufacture of canvas footwear"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1520",
+    "nic_5digit": "15204",
+    "description": "Manufacture of plastic footwear"
+  },
+  {
+    "nic_2digit": "15",
+    "nic_4digit": "1520",
+    "nic_5digit": "15209",
+    "description": "Manufacture of other footwear n.e.c."
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1610",
+    "nic_5digit": "16101",
+    "description": "Sawing and planing of wood"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1610",
+    "nic_5digit": "16102",
+    "description": "Preserving and impregnation of wood"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1610",
+    "nic_5digit": "16109",
+    "description": "Other sawmilling and planing of wood n.e.c."
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1621",
+    "nic_5digit": "16211",
+    "description": "Manufacture of plywood"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1621",
+    "nic_5digit": "16212",
+    "description": "Manufacture of veneers and laminboards"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1621",
+    "nic_5digit": "16213",
+    "description": "Manufacture of particle board"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1621",
+    "nic_5digit": "16219",
+    "description": "Manufacture of other panels and boards n.e.c."
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1622",
+    "nic_5digit": "16221",
+    "description": "Manufacture of wooden boxes, packing cases and crates"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1622",
+    "nic_5digit": "16222",
+    "description": "Manufacture of wooden pallets and platforms"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1622",
+    "nic_5digit": "16223",
+    "description": "Manufacture of wooden barrels and vats"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1622",
+    "nic_5digit": "16229",
+    "description": "Manufacture of other wooden containers n.e.c."
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1623",
+    "nic_5digit": "16231",
+    "description": "Manufacture of wooden doors, windows and shutters"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1623",
+    "nic_5digit": "16232",
+    "description": "Manufacture of builders' carpentry and joinery"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1623",
+    "nic_5digit": "16233",
+    "description": "Manufacture of wooden flooring"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16291",
+    "description": "Manufacture of cork and cork products"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16292",
+    "description": "Manufacture of plaiting materials and articles of straw"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16293",
+    "description": "Manufacture of bamboo articles"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16294",
+    "description": "Manufacture of wooden toys"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16295",
+    "description": "Manufacture of wooden picture frames"
+  },
+  {
+    "nic_2digit": "16",
+    "nic_4digit": "1629",
+    "nic_5digit": "16299",
+    "description": "Manufacture of other wood products n.e.c."
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1701",
+    "nic_5digit": "17011",
+    "description": "Manufacture of pulp"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1701",
+    "nic_5digit": "17012",
+    "description": "Manufacture of paper and paper rolls"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1701",
+    "nic_5digit": "17013",
+    "description": "Manufacture of newsprint"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1701",
+    "nic_5digit": "17014",
+    "description": "Manufacture of handmade paper"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1702",
+    "nic_5digit": "17021",
+    "description": "Manufacture of corrugated paper and paperboard"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1702",
+    "nic_5digit": "17022",
+    "description": "Manufacture of paper sacks and bags"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1702",
+    "nic_5digit": "17023",
+    "description": "Manufacture of paper board boxes and containers"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1702",
+    "nic_5digit": "17024",
+    "description": "Manufacture of registers, account books, binders"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1702",
+    "nic_5digit": "17029",
+    "description": "Manufacture of other articles of paper and paperboard n.e.c."
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1709",
+    "nic_5digit": "17091",
+    "description": "Manufacture of carbon paper and stencils"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1709",
+    "nic_5digit": "17092",
+    "description": "Manufacture of gummed paper"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1709",
+    "nic_5digit": "17093",
+    "description": "Manufacture of tissue paper"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1709",
+    "nic_5digit": "17094",
+    "description": "Manufacture of filter papers"
+  },
+  {
+    "nic_2digit": "17",
+    "nic_4digit": "1709",
+    "nic_5digit": "17099",
+    "description": "Manufacture of other paper products n.e.c."
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18111",
+    "description": "Printing of newspapers"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18112",
+    "description": "Printing of periodicals, magazines and journals"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18113",
+    "description": "Printing of books, brochures and similar"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18114",
+    "description": "Printing of visiting cards, letter heads and wedding cards"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18115",
+    "description": "Printing of labels and tags"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1811",
+    "nic_5digit": "18119",
+    "description": "Other printing n.e.c."
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1812",
+    "nic_5digit": "18121",
+    "description": "Service activities related to printing (binding, engraving)"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1812",
+    "nic_5digit": "18129",
+    "description": "Other service activities related to printing n.e.c."
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1820",
+    "nic_5digit": "18201",
+    "description": "Reproduction of sound recordings"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1820",
+    "nic_5digit": "18202",
+    "description": "Reproduction of video recordings"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1820",
+    "nic_5digit": "18203",
+    "description": "Reproduction of computer media"
+  },
+  {
+    "nic_2digit": "18",
+    "nic_4digit": "1820",
+    "nic_5digit": "18209",
+    "description": "Other reproduction of recorded media n.e.c."
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1910",
+    "nic_5digit": "19101",
+    "description": "Production of coke"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1910",
+    "nic_5digit": "19102",
+    "description": "Production of semi-coke"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1910",
+    "nic_5digit": "19109",
+    "description": "Other coke oven products n.e.c."
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19201",
+    "description": "Production of LPG from petroleum refineries"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19202",
+    "description": "Production of gasoline (motor spirit)"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19203",
+    "description": "Production of kerosene and other light distillates"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19204",
+    "description": "Production of diesel oil"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19205",
+    "description": "Production of fuel oils and other heavy distillates"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19206",
+    "description": "Production of bitumen and other petroleum residues"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19207",
+    "description": "Production of lubricating oils and greases"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19208",
+    "description": "Production of petroleum jelly and paraffin wax"
+  },
+  {
+    "nic_2digit": "19",
+    "nic_4digit": "1920",
+    "nic_5digit": "19209",
+    "description": "Other petroleum refining and processing n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20111",
+    "description": "Manufacture of basic industrial gases (oxygen, acetylene)"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20112",
+    "description": "Manufacture of inorganic acids and alkalis"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20113",
+    "description": "Manufacture of industrial salts"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20114",
+    "description": "Manufacture of halogens"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20115",
+    "description": "Manufacture of oxides and hydroxides"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20116",
+    "description": "Manufacture of inorganic pigments"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2011",
+    "nic_5digit": "20119",
+    "description": "Manufacture of other basic inorganic chemicals n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20121",
+    "description": "Manufacture of organic acids and anhydrides"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20122",
+    "description": "Manufacture of alcohols, phenols and their derivatives"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20123",
+    "description": "Manufacture of ketones and quinones"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20124",
+    "description": "Manufacture of amines and other nitrogen compounds"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20125",
+    "description": "Manufacture of dyes and pigments"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20126",
+    "description": "Manufacture of organic chemicals used as solvents"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2012",
+    "nic_5digit": "20129",
+    "description": "Manufacture of other basic organic chemicals n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20131",
+    "description": "Manufacture of nitrogenous fertilizers"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20132",
+    "description": "Manufacture of phosphatic fertilizers"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20133",
+    "description": "Manufacture of potassic fertilizers"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20134",
+    "description": "Manufacture of mixed, compound and complex fertilizers"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20135",
+    "description": "Manufacture of bio-fertilizers"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2013",
+    "nic_5digit": "20139",
+    "description": "Manufacture of other fertilizers n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2021",
+    "nic_5digit": "20211",
+    "description": "Manufacture of pesticides and agrochemical products"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2021",
+    "nic_5digit": "20212",
+    "description": "Manufacture of insecticides"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2021",
+    "nic_5digit": "20213",
+    "description": "Manufacture of fungicides"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2021",
+    "nic_5digit": "20214",
+    "description": "Manufacture of herbicides"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2021",
+    "nic_5digit": "20219",
+    "description": "Manufacture of other chemical pesticides n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2022",
+    "nic_5digit": "20221",
+    "description": "Manufacture of paints, varnishes and enamels"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2022",
+    "nic_5digit": "20222",
+    "description": "Manufacture of lacquers, shellac and similar products"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2022",
+    "nic_5digit": "20223",
+    "description": "Manufacture of putty and mastics"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2022",
+    "nic_5digit": "20224",
+    "description": "Manufacture of printing ink"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2022",
+    "nic_5digit": "20229",
+    "description": "Manufacture of other paints and coatings n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20231",
+    "description": "Manufacture of soap and detergents"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20232",
+    "description": "Manufacture of shampoos, hair oils and toilet preparations"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20233",
+    "description": "Manufacture of perfumes and colognes"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20234",
+    "description": "Manufacture of cosmetics and beauty products"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20235",
+    "description": "Manufacture of polishes and creams"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2023",
+    "nic_5digit": "20239",
+    "description": "Manufacture of other soap, detergents, cleaning and cosmetic products n.e.c."
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20291",
+    "description": "Manufacture of matches"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20292",
+    "description": "Manufacture of explosives and fireworks"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20293",
+    "description": "Manufacture of glue and gelatin"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20294",
+    "description": "Manufacture of essential oils"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20295",
+    "description": "Manufacture of photographic chemicals"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20296",
+    "description": "Manufacture of synthetic resin and plastic materials"
+  },
+  {
+    "nic_2digit": "20",
+    "nic_4digit": "2029",
+    "nic_5digit": "20299",
+    "description": "Manufacture of other chemical products n.e.c."
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21001",
+    "description": "Manufacture of medicinal substances and chemical products for pharmaceutical use"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21002",
+    "description": "Manufacture of allopathic pharmaceutical preparations"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21003",
+    "description": "Manufacture of ayurvedic, unani and homoeopathic pharmaceutical preparations"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21004",
+    "description": "Manufacture of veterinary pharmaceuticals"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21005",
+    "description": "Manufacture of surgical dressings and bandages"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21006",
+    "description": "Manufacture of vaccines and sera"
+  },
+  {
+    "nic_2digit": "21",
+    "nic_4digit": "2100",
+    "nic_5digit": "21009",
+    "description": "Manufacture of other pharmaceutical and botanical products n.e.c."
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2211",
+    "nic_5digit": "22111",
+    "description": "Manufacture of rubber tyres and tubes for vehicles"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2211",
+    "nic_5digit": "22112",
+    "description": "Retreading of tyres"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2211",
+    "nic_5digit": "22119",
+    "description": "Manufacture of other rubber products n.e.c."
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2212",
+    "nic_5digit": "22121",
+    "description": "Manufacture of rubber footwear"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2212",
+    "nic_5digit": "22122",
+    "description": "Manufacture of rubber sheets"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2212",
+    "nic_5digit": "22123",
+    "description": "Manufacture of rubber hose and tubing"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2212",
+    "nic_5digit": "22129",
+    "description": "Manufacture of other rubber goods n.e.c."
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2213",
+    "nic_5digit": "22131",
+    "description": "Manufacture of rubberised textile products"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2213",
+    "nic_5digit": "22132",
+    "description": "Manufacture of rubber conveyor belts"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2213",
+    "nic_5digit": "22139",
+    "description": "Manufacture of other rubber products for industrial use n.e.c."
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2219",
+    "nic_5digit": "22191",
+    "description": "Manufacture of rubber belts"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2219",
+    "nic_5digit": "22192",
+    "description": "Manufacture of rubber moulded goods"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2219",
+    "nic_5digit": "22199",
+    "description": "Manufacture of other rubber products n.e.c."
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22201",
+    "description": "Manufacture of plastic articles for the packaging industry"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22202",
+    "description": "Manufacture of plastic pipes and tubes"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22203",
+    "description": "Manufacture of plastic sheets and films"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22204",
+    "description": "Manufacture of plastic bags and sacks"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22205",
+    "description": "Manufacture of plastic household wares"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22206",
+    "description": "Manufacture of plastic furniture"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22207",
+    "description": "Manufacture of plastic building materials"
+  },
+  {
+    "nic_2digit": "22",
+    "nic_4digit": "2220",
+    "nic_5digit": "22209",
+    "description": "Manufacture of other plastic products n.e.c."
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23101",
+    "description": "Manufacture of flat glass"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23102",
+    "description": "Manufacture of safety glass"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23103",
+    "description": "Manufacture of glass fibre"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23104",
+    "description": "Manufacture of glassware"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23105",
+    "description": "Manufacture of bottles and other containers of glass"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2310",
+    "nic_5digit": "23109",
+    "description": "Manufacture of other glass and glass products n.e.c."
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2391",
+    "nic_5digit": "23911",
+    "description": "Manufacture of refractory products (bricks, tiles)"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2391",
+    "nic_5digit": "23912",
+    "description": "Manufacture of ceramic sanitary wares"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2391",
+    "nic_5digit": "23913",
+    "description": "Manufacture of ceramic tableware"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2391",
+    "nic_5digit": "23914",
+    "description": "Manufacture of ceramic insulators"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2391",
+    "nic_5digit": "23919",
+    "description": "Manufacture of other ceramic and refractory products n.e.c."
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2392",
+    "nic_5digit": "23921",
+    "description": "Manufacture of bricks"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2392",
+    "nic_5digit": "23922",
+    "description": "Manufacture of tiles (roofing and flooring)"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2393",
+    "nic_5digit": "23931",
+    "description": "Manufacture of cement"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2393",
+    "nic_5digit": "23932",
+    "description": "Manufacture of clinker"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2393",
+    "nic_5digit": "23933",
+    "description": "Manufacture of ready-mix concrete"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2394",
+    "nic_5digit": "23941",
+    "description": "Manufacture of lime"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2394",
+    "nic_5digit": "23942",
+    "description": "Manufacture of plaster"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2395",
+    "nic_5digit": "23951",
+    "description": "Manufacture of asbestos sheets"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2395",
+    "nic_5digit": "23952",
+    "description": "Manufacture of asbestos cement products"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2396",
+    "nic_5digit": "23961",
+    "description": "Cutting, shaping and finishing of stone"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2396",
+    "nic_5digit": "23962",
+    "description": "Manufacture of stone articles"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2397",
+    "nic_5digit": "23971",
+    "description": "Manufacture of abrasives"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2397",
+    "nic_5digit": "23972",
+    "description": "Manufacture of sandpaper"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2399",
+    "nic_5digit": "23991",
+    "description": "Manufacture of mica products"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2399",
+    "nic_5digit": "23992",
+    "description": "Manufacture of graphite products"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2399",
+    "nic_5digit": "23993",
+    "description": "Manufacture of mineral wool"
+  },
+  {
+    "nic_2digit": "23",
+    "nic_4digit": "2399",
+    "nic_5digit": "23999",
+    "description": "Manufacture of other non-metallic mineral products n.e.c."
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24101",
+    "description": "Manufacture of pig iron and crude steel"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24102",
+    "description": "Manufacture of ferro-alloys"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24103",
+    "description": "Manufacture of steel bars, rods and sections"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24104",
+    "description": "Manufacture of steel wire"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24105",
+    "description": "Manufacture of basic iron and steel products"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2410",
+    "nic_5digit": "24109",
+    "description": "Manufacture of other basic iron and steel n.e.c."
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24201",
+    "description": "Manufacture of refined copper"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24202",
+    "description": "Manufacture of refined zinc"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24203",
+    "description": "Manufacture of refined aluminium"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24204",
+    "description": "Manufacture of lead, tin and other non-ferrous metals"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24205",
+    "description": "Manufacture of precious metals"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2420",
+    "nic_5digit": "24209",
+    "description": "Manufacture of other non-ferrous metals n.e.c."
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2431",
+    "nic_5digit": "24310",
+    "description": "Casting of iron and steel"
+  },
+  {
+    "nic_2digit": "24",
+    "nic_4digit": "2432",
+    "nic_5digit": "24320",
+    "description": "Casting of non-ferrous metals"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2511",
+    "nic_5digit": "25111",
+    "description": "Manufacture of structural steel products"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2511",
+    "nic_5digit": "25112",
+    "description": "Manufacture of industrial frameworks in metal"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2511",
+    "nic_5digit": "25113",
+    "description": "Manufacture of metal doors, windows and shutters"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2511",
+    "nic_5digit": "25119",
+    "description": "Manufacture of other structural metal products n.e.c."
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2512",
+    "nic_5digit": "25121",
+    "description": "Manufacture of metal tanks and reservoirs"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2512",
+    "nic_5digit": "25122",
+    "description": "Manufacture of metal containers"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2513",
+    "nic_5digit": "25131",
+    "description": "Manufacture of steam generators and parts"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2513",
+    "nic_5digit": "25132",
+    "description": "Manufacture of central heating boilers"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2513",
+    "nic_5digit": "25139",
+    "description": "Manufacture of other steam generators n.e.c."
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2520",
+    "nic_5digit": "25201",
+    "description": "Manufacture of weapons and ammunition"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2520",
+    "nic_5digit": "25202",
+    "description": "Manufacture of small arms and parts"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2591",
+    "nic_5digit": "25910",
+    "description": "Forging, pressing, stamping and roll-forming of metal"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2592",
+    "nic_5digit": "25920",
+    "description": "Treatment and coating of metals"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2593",
+    "nic_5digit": "25931",
+    "description": "Manufacture of cutlery"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2593",
+    "nic_5digit": "25932",
+    "description": "Manufacture of hand tools"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2593",
+    "nic_5digit": "25933",
+    "description": "Manufacture of general hardware"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25991",
+    "description": "Manufacture of metal fasteners (nuts, bolts, screws)"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25992",
+    "description": "Manufacture of wire products"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25993",
+    "description": "Manufacture of metal springs"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25994",
+    "description": "Manufacture of chain and chain parts"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25995",
+    "description": "Manufacture of metal household articles"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25996",
+    "description": "Manufacture of safes and vaults"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25997",
+    "description": "Manufacture of metal sanitary ware"
+  },
+  {
+    "nic_2digit": "25",
+    "nic_4digit": "2599",
+    "nic_5digit": "25999",
+    "description": "Manufacture of other fabricated metal products n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2610",
+    "nic_5digit": "26101",
+    "description": "Manufacture of electronic valves and tubes"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2610",
+    "nic_5digit": "26102",
+    "description": "Manufacture of semi-conductor devices"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2610",
+    "nic_5digit": "26103",
+    "description": "Manufacture of integrated circuits"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2610",
+    "nic_5digit": "26109",
+    "description": "Manufacture of other electronic components n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2620",
+    "nic_5digit": "26201",
+    "description": "Manufacture of computers and computer peripheral equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2620",
+    "nic_5digit": "26202",
+    "description": "Manufacture of computer printers"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2620",
+    "nic_5digit": "26209",
+    "description": "Manufacture of other computing machinery n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26301",
+    "description": "Manufacture of television sets"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26302",
+    "description": "Manufacture of radio receivers"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26303",
+    "description": "Manufacture of video recording and reproducing apparatus"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26304",
+    "description": "Manufacture of microphones, loudspeakers and amplifiers"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26305",
+    "description": "Manufacture of audio and video cassettes"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2630",
+    "nic_5digit": "26309",
+    "description": "Manufacture of other communication equipment n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26401",
+    "description": "Manufacture of television cameras"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26402",
+    "description": "Manufacture of digital cameras"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26403",
+    "description": "Manufacture of navigational instruments"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26404",
+    "description": "Manufacture of radar equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26405",
+    "description": "Manufacture of remote control equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2640",
+    "nic_5digit": "26409",
+    "description": "Manufacture of other electronic equipment n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2651",
+    "nic_5digit": "26511",
+    "description": "Manufacture of measuring instruments (pressure, temperature)"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2651",
+    "nic_5digit": "26512",
+    "description": "Manufacture of flow meters and counters"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2651",
+    "nic_5digit": "26513",
+    "description": "Manufacture of industrial process control equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2651",
+    "nic_5digit": "26519",
+    "description": "Manufacture of other measuring instruments n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2652",
+    "nic_5digit": "26521",
+    "description": "Manufacture of watches and clocks"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2652",
+    "nic_5digit": "26522",
+    "description": "Manufacture of parts of watches and clocks"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2660",
+    "nic_5digit": "26601",
+    "description": "Manufacture of irradiation equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2660",
+    "nic_5digit": "26602",
+    "description": "Manufacture of electro-medical equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2660",
+    "nic_5digit": "26609",
+    "description": "Manufacture of other irradiation and electromedical equipment n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2670",
+    "nic_5digit": "26701",
+    "description": "Manufacture of optical instruments and lenses"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2670",
+    "nic_5digit": "26702",
+    "description": "Manufacture of photographic equipment"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2670",
+    "nic_5digit": "26703",
+    "description": "Manufacture of binoculars and telescopes"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2670",
+    "nic_5digit": "26709",
+    "description": "Manufacture of other optical instruments n.e.c."
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2680",
+    "nic_5digit": "26801",
+    "description": "Manufacture of magnetic media (blank tapes, cassettes)"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2680",
+    "nic_5digit": "26802",
+    "description": "Manufacture of optical media (blank CDs, DVDs)"
+  },
+  {
+    "nic_2digit": "26",
+    "nic_4digit": "2680",
+    "nic_5digit": "26809",
+    "description": "Manufacture of other magnetic and optical media n.e.c."
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2710",
+    "nic_5digit": "27101",
+    "description": "Manufacture of electric motors"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2710",
+    "nic_5digit": "27102",
+    "description": "Manufacture of electric generators"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2710",
+    "nic_5digit": "27103",
+    "description": "Manufacture of transformers"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2710",
+    "nic_5digit": "27104",
+    "description": "Manufacture of switchgear"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2710",
+    "nic_5digit": "27109",
+    "description": "Manufacture of other electric motors and generators n.e.c."
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2720",
+    "nic_5digit": "27201",
+    "description": "Manufacture of dry cell batteries"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2720",
+    "nic_5digit": "27202",
+    "description": "Manufacture of storage batteries"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2720",
+    "nic_5digit": "27209",
+    "description": "Manufacture of other batteries and accumulators n.e.c."
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2731",
+    "nic_5digit": "27310",
+    "description": "Manufacture of fibre optic cables"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2732",
+    "nic_5digit": "27320",
+    "description": "Manufacture of other electronic and electric wires and cables"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2733",
+    "nic_5digit": "27330",
+    "description": "Manufacture of wiring devices"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2740",
+    "nic_5digit": "27401",
+    "description": "Manufacture of electric lamps"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2740",
+    "nic_5digit": "27402",
+    "description": "Manufacture of LED lamps and tubes"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2740",
+    "nic_5digit": "27403",
+    "description": "Manufacture of lighting equipment"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2740",
+    "nic_5digit": "27409",
+    "description": "Manufacture of other electric lamps and lighting equipment n.e.c."
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27501",
+    "description": "Manufacture of electric domestic appliances (fans, heaters)"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27502",
+    "description": "Manufacture of cooking appliances"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27503",
+    "description": "Manufacture of refrigerators and freezers"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27504",
+    "description": "Manufacture of washing machines and dryers"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27505",
+    "description": "Manufacture of air conditioners"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2750",
+    "nic_5digit": "27509",
+    "description": "Manufacture of other domestic appliances n.e.c."
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2790",
+    "nic_5digit": "27901",
+    "description": "Manufacture of electrical signalling equipment"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2790",
+    "nic_5digit": "27902",
+    "description": "Manufacture of electric traffic control equipment"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2790",
+    "nic_5digit": "27903",
+    "description": "Manufacture of industrial electrical heating equipment"
+  },
+  {
+    "nic_2digit": "27",
+    "nic_4digit": "2790",
+    "nic_5digit": "27909",
+    "description": "Manufacture of other electrical equipment n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2811",
+    "nic_5digit": "28111",
+    "description": "Manufacture of engines and turbines (except aircraft)"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2811",
+    "nic_5digit": "28112",
+    "description": "Manufacture of hydraulic turbines"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2811",
+    "nic_5digit": "28113",
+    "description": "Manufacture of wind turbines"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2811",
+    "nic_5digit": "28119",
+    "description": "Manufacture of other engines and turbines n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2812",
+    "nic_5digit": "28120",
+    "description": "Manufacture of fluid power equipment"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2813",
+    "nic_5digit": "28131",
+    "description": "Manufacture of pumps"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2813",
+    "nic_5digit": "28132",
+    "description": "Manufacture of compressors"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2813",
+    "nic_5digit": "28139",
+    "description": "Manufacture of other pumps and compressors n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2814",
+    "nic_5digit": "28140",
+    "description": "Manufacture of taps, valves and similar articles"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2815",
+    "nic_5digit": "28151",
+    "description": "Manufacture of ball and roller bearings"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2815",
+    "nic_5digit": "28152",
+    "description": "Manufacture of gears"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2815",
+    "nic_5digit": "28159",
+    "description": "Manufacture of other bearings and gears n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2816",
+    "nic_5digit": "28161",
+    "description": "Manufacture of lifting equipment"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2816",
+    "nic_5digit": "28162",
+    "description": "Manufacture of cranes and hoists"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2816",
+    "nic_5digit": "28169",
+    "description": "Manufacture of other lifting and handling equipment n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2817",
+    "nic_5digit": "28171",
+    "description": "Manufacture of office machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2817",
+    "nic_5digit": "28179",
+    "description": "Manufacture of other office machinery n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2818",
+    "nic_5digit": "28180",
+    "description": "Manufacture of power-driven hand tools"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2819",
+    "nic_5digit": "28191",
+    "description": "Manufacture of packaging machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2819",
+    "nic_5digit": "28192",
+    "description": "Manufacture of weighing machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2819",
+    "nic_5digit": "28193",
+    "description": "Manufacture of filtering and purifying machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2819",
+    "nic_5digit": "28199",
+    "description": "Manufacture of other general-purpose machinery n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2821",
+    "nic_5digit": "28211",
+    "description": "Manufacture of agricultural tractors"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2821",
+    "nic_5digit": "28212",
+    "description": "Manufacture of ploughs, harrows and similar agricultural implements"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2821",
+    "nic_5digit": "28219",
+    "description": "Manufacture of other agricultural machinery n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2822",
+    "nic_5digit": "28221",
+    "description": "Manufacture of machine tools for metalworking"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2822",
+    "nic_5digit": "28222",
+    "description": "Manufacture of machine tools for woodworking"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2822",
+    "nic_5digit": "28223",
+    "description": "Manufacture of welding machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2822",
+    "nic_5digit": "28229",
+    "description": "Manufacture of other machine tools n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2823",
+    "nic_5digit": "28230",
+    "description": "Manufacture of machinery for metallurgy"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2824",
+    "nic_5digit": "28241",
+    "description": "Manufacture of mining machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2824",
+    "nic_5digit": "28242",
+    "description": "Manufacture of construction machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2824",
+    "nic_5digit": "28249",
+    "description": "Manufacture of other mining and construction machinery n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2825",
+    "nic_5digit": "28250",
+    "description": "Manufacture of machinery for food, beverage and tobacco processing"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2826",
+    "nic_5digit": "28261",
+    "description": "Manufacture of machinery for textile production"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2826",
+    "nic_5digit": "28262",
+    "description": "Manufacture of machinery for leather and footwear production"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2826",
+    "nic_5digit": "28269",
+    "description": "Manufacture of other special-purpose machinery for textiles n.e.c."
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2829",
+    "nic_5digit": "28291",
+    "description": "Manufacture of machinery for paper and paperboard production"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2829",
+    "nic_5digit": "28292",
+    "description": "Manufacture of machinery for plastic and rubber production"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2829",
+    "nic_5digit": "28293",
+    "description": "Manufacture of printing machinery"
+  },
+  {
+    "nic_2digit": "28",
+    "nic_4digit": "2829",
+    "nic_5digit": "28299",
+    "description": "Manufacture of other special-purpose machinery n.e.c."
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2910",
+    "nic_5digit": "29101",
+    "description": "Manufacture of passenger cars"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2910",
+    "nic_5digit": "29102",
+    "description": "Manufacture of commercial vehicles"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2910",
+    "nic_5digit": "29103",
+    "description": "Manufacture of chassis fitted with engines"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2920",
+    "nic_5digit": "29201",
+    "description": "Manufacture of bodies (coachwork) for motor vehicles"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2920",
+    "nic_5digit": "29202",
+    "description": "Manufacture of trailers and semi-trailers"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2920",
+    "nic_5digit": "29203",
+    "description": "Manufacture of caravans and motorhomes"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29301",
+    "description": "Manufacture of motor vehicle electrical equipment"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29302",
+    "description": "Manufacture of motor vehicle engines and parts"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29303",
+    "description": "Manufacture of motor vehicle suspension and parts"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29304",
+    "description": "Manufacture of brakes and brake parts for motor vehicles"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29305",
+    "description": "Manufacture of gears and gear boxes for motor vehicles"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29306",
+    "description": "Manufacture of seats for motor vehicles"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29307",
+    "description": "Manufacture of safety seat belts and airbags"
+  },
+  {
+    "nic_2digit": "29",
+    "nic_4digit": "2930",
+    "nic_5digit": "29309",
+    "description": "Manufacture of other motor vehicle parts n.e.c."
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3011",
+    "nic_5digit": "30111",
+    "description": "Building of ships and floating structures"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3011",
+    "nic_5digit": "30112",
+    "description": "Building of fishing boats"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3011",
+    "nic_5digit": "30119",
+    "description": "Building of other vessels n.e.c."
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3012",
+    "nic_5digit": "30120",
+    "description": "Building of pleasure boats and sporting boats"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3020",
+    "nic_5digit": "30201",
+    "description": "Manufacture of railway locomotives"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3020",
+    "nic_5digit": "30202",
+    "description": "Manufacture of railway coaches"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3020",
+    "nic_5digit": "30203",
+    "description": "Manufacture of railway wagons"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3020",
+    "nic_5digit": "30204",
+    "description": "Manufacture of self-propelled railway cars"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3030",
+    "nic_5digit": "30301",
+    "description": "Manufacture of aircraft"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3030",
+    "nic_5digit": "30302",
+    "description": "Manufacture of helicopters"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3030",
+    "nic_5digit": "30303",
+    "description": "Manufacture of gliders and hang-gliders"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3030",
+    "nic_5digit": "30304",
+    "description": "Manufacture of parts and accessories of aircraft"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3040",
+    "nic_5digit": "30400",
+    "description": "Manufacture of military fighting vehicles"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3091",
+    "nic_5digit": "30910",
+    "description": "Manufacture of motorcycles"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3092",
+    "nic_5digit": "30921",
+    "description": "Manufacture of bicycles and cycle rickshaws"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3092",
+    "nic_5digit": "30922",
+    "description": "Manufacture of parts and accessories of bicycles"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3099",
+    "nic_5digit": "30991",
+    "description": "Manufacture of auto-rickshaws and three-wheelers"
+  },
+  {
+    "nic_2digit": "30",
+    "nic_4digit": "3099",
+    "nic_5digit": "30999",
+    "description": "Manufacture of other transport equipment n.e.c."
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31001",
+    "description": "Manufacture of wooden furniture"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31002",
+    "description": "Manufacture of metal furniture"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31003",
+    "description": "Manufacture of plastic furniture"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31004",
+    "description": "Manufacture of cane and bamboo furniture"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31005",
+    "description": "Manufacture of upholstered furniture"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31006",
+    "description": "Manufacture of mattresses"
+  },
+  {
+    "nic_2digit": "31",
+    "nic_4digit": "3100",
+    "nic_5digit": "31009",
+    "description": "Manufacture of other furniture n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3211",
+    "nic_5digit": "32111",
+    "description": "Manufacture of gold jewellery"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3211",
+    "nic_5digit": "32112",
+    "description": "Manufacture of silver jewellery"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3211",
+    "nic_5digit": "32113",
+    "description": "Manufacture of precious and semi-precious stone cutting"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3211",
+    "nic_5digit": "32114",
+    "description": "Manufacture of imitation jewellery"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3211",
+    "nic_5digit": "32119",
+    "description": "Manufacture of other jewellery and related articles n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3212",
+    "nic_5digit": "32121",
+    "description": "Manufacture of coins"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3212",
+    "nic_5digit": "32122",
+    "description": "Manufacture of medals and badges"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3220",
+    "nic_5digit": "32201",
+    "description": "Manufacture of stringed musical instruments"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3220",
+    "nic_5digit": "32202",
+    "description": "Manufacture of wind musical instruments"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3220",
+    "nic_5digit": "32203",
+    "description": "Manufacture of percussion musical instruments"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3220",
+    "nic_5digit": "32204",
+    "description": "Manufacture of electronic musical instruments"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3220",
+    "nic_5digit": "32209",
+    "description": "Manufacture of other musical instruments n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3230",
+    "nic_5digit": "32301",
+    "description": "Manufacture of sports goods (balls, bats, rackets)"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3230",
+    "nic_5digit": "32302",
+    "description": "Manufacture of sports footwear"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3230",
+    "nic_5digit": "32309",
+    "description": "Manufacture of other sports goods n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3240",
+    "nic_5digit": "32401",
+    "description": "Manufacture of dolls and toy animals"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3240",
+    "nic_5digit": "32402",
+    "description": "Manufacture of wheeled toys"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3240",
+    "nic_5digit": "32403",
+    "description": "Manufacture of electronic toys"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3240",
+    "nic_5digit": "32404",
+    "description": "Manufacture of board games and similar"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3240",
+    "nic_5digit": "32409",
+    "description": "Manufacture of other games and toys n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3250",
+    "nic_5digit": "32501",
+    "description": "Manufacture of medical and dental instruments"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3250",
+    "nic_5digit": "32502",
+    "description": "Manufacture of orthopaedic appliances"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3250",
+    "nic_5digit": "32503",
+    "description": "Manufacture of prosthetics"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3250",
+    "nic_5digit": "32509",
+    "description": "Manufacture of other medical and dental instruments n.e.c."
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32901",
+    "description": "Manufacture of brooms and brushes"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32902",
+    "description": "Manufacture of pens and pencils"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32903",
+    "description": "Manufacture of umbrellas"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32904",
+    "description": "Manufacture of buttons and zippers"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32905",
+    "description": "Manufacture of cigarette lighters"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32906",
+    "description": "Manufacture of wicks and candles"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32907",
+    "description": "Manufacture of artificial flowers and fruits"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32908",
+    "description": "Manufacture of Christmas decorations"
+  },
+  {
+    "nic_2digit": "32",
+    "nic_4digit": "3290",
+    "nic_5digit": "32909",
+    "description": "Manufacture of other articles n.e.c."
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3311",
+    "nic_5digit": "33110",
+    "description": "Repair of fabricated metal products"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3312",
+    "nic_5digit": "33121",
+    "description": "Repair of machinery"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3312",
+    "nic_5digit": "33122",
+    "description": "Repair of industrial machinery"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3313",
+    "nic_5digit": "33131",
+    "description": "Repair of electronic and optical equipment"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3313",
+    "nic_5digit": "33132",
+    "description": "Repair of computer and peripheral equipment"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3314",
+    "nic_5digit": "33141",
+    "description": "Repair of electrical equipment"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3314",
+    "nic_5digit": "33142",
+    "description": "Repair of transformers"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3314",
+    "nic_5digit": "33143",
+    "description": "Repair of motors and generators"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3315",
+    "nic_5digit": "33150",
+    "description": "Repair of transport equipment (except motor vehicles)"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3319",
+    "nic_5digit": "33191",
+    "description": "Repair of other equipment n.e.c."
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3319",
+    "nic_5digit": "33199",
+    "description": "Other repair activities n.e.c."
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3320",
+    "nic_5digit": "33201",
+    "description": "Installation of industrial machinery"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3320",
+    "nic_5digit": "33202",
+    "description": "Installation of electrical equipment"
+  },
+  {
+    "nic_2digit": "33",
+    "nic_4digit": "3320",
+    "nic_5digit": "33209",
+    "description": "Installation of other industrial equipment n.e.c."
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35101",
+    "description": "Electric power generation using coal"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35102",
+    "description": "Electric power generation using oil"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35103",
+    "description": "Electric power generation using gas"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35104",
+    "description": "Electric power generation using hydro energy"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35105",
+    "description": "Electric power generation using nuclear energy"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35106",
+    "description": "Electric power generation using solar energy"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35107",
+    "description": "Electric power generation using wind energy"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35108",
+    "description": "Electric power generation using biomass"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3510",
+    "nic_5digit": "35109",
+    "description": "Electric power generation using other sources n.e.c."
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3520",
+    "nic_5digit": "35201",
+    "description": "Manufacture of gas"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3520",
+    "nic_5digit": "35202",
+    "description": "Distribution of gaseous fuels through mains"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3530",
+    "nic_5digit": "35301",
+    "description": "Production of steam and hot water"
+  },
+  {
+    "nic_2digit": "35",
+    "nic_4digit": "3530",
+    "nic_5digit": "35302",
+    "description": "Production of ice"
+  },
+  {
+    "nic_2digit": "36",
+    "nic_4digit": "3600",
+    "nic_5digit": "36000",
+    "description": "Water collection, treatment and supply"
+  },
+  {
+    "nic_2digit": "37",
+    "nic_4digit": "3700",
+    "nic_5digit": "37001",
+    "description": "Sewerage and sewage treatment"
+  },
+  {
+    "nic_2digit": "37",
+    "nic_4digit": "3700",
+    "nic_5digit": "37002",
+    "description": "Sewerage cleaning and unblocking services"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3811",
+    "nic_5digit": "38111",
+    "description": "Collection of non-hazardous waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3811",
+    "nic_5digit": "38112",
+    "description": "Collection of hazardous waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3812",
+    "nic_5digit": "38121",
+    "description": "Treatment and disposal of non-hazardous waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3812",
+    "nic_5digit": "38122",
+    "description": "Treatment and disposal of hazardous waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3813",
+    "nic_5digit": "38130",
+    "description": "Materials recovery (recycling)"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3821",
+    "nic_5digit": "38210",
+    "description": "Treatment and disposal of nuclear waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3822",
+    "nic_5digit": "38221",
+    "description": "Treatment and disposal of toxic and contaminated waste"
+  },
+  {
+    "nic_2digit": "38",
+    "nic_4digit": "3822",
+    "nic_5digit": "38229",
+    "description": "Other hazardous waste treatment n.e.c."
+  },
+  {
+    "nic_2digit": "39",
+    "nic_4digit": "3900",
+    "nic_5digit": "39001",
+    "description": "Remediation and clean-up of contaminated soil and water"
+  },
+  {
+    "nic_2digit": "39",
+    "nic_4digit": "3900",
+    "nic_5digit": "39002",
+    "description": "Other sanitation activities"
+  },
+  {
+    "nic_2digit": "41",
+    "nic_4digit": "4100",
+    "nic_5digit": "41001",
+    "description": "Construction of residential buildings"
+  },
+  {
+    "nic_2digit": "41",
+    "nic_4digit": "4100",
+    "nic_5digit": "41002",
+    "description": "Construction of commercial buildings"
+  },
+  {
+    "nic_2digit": "41",
+    "nic_4digit": "4100",
+    "nic_5digit": "41003",
+    "description": "Construction of industrial buildings"
+  },
+  {
+    "nic_2digit": "41",
+    "nic_4digit": "4100",
+    "nic_5digit": "41004",
+    "description": "Construction of institutional buildings"
+  },
+  {
+    "nic_2digit": "41",
+    "nic_4digit": "4100",
+    "nic_5digit": "41009",
+    "description": "Construction of other buildings n.e.c."
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4210",
+    "nic_5digit": "42101",
+    "description": "Construction and maintenance of motorways, streets and roads"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4210",
+    "nic_5digit": "42102",
+    "description": "Construction and maintenance of railways"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4210",
+    "nic_5digit": "42103",
+    "description": "Construction and maintenance of bridges and tunnels"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4210",
+    "nic_5digit": "42104",
+    "description": "Construction and maintenance of runways"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4220",
+    "nic_5digit": "42201",
+    "description": "Construction of utility projects for electricity"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4220",
+    "nic_5digit": "42202",
+    "description": "Construction of utility projects for telecommunications"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4220",
+    "nic_5digit": "42203",
+    "description": "Construction of utility projects for water"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4220",
+    "nic_5digit": "42204",
+    "description": "Construction of utility projects for gas"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42901",
+    "description": "Construction of dams and irrigation systems"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42902",
+    "description": "Construction of outdoor sports facilities"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42903",
+    "description": "Construction of industrial plant (other than buildings)"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42904",
+    "description": "Construction of docks and harbours"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42905",
+    "description": "Construction of pipelines"
+  },
+  {
+    "nic_2digit": "42",
+    "nic_4digit": "4290",
+    "nic_5digit": "42909",
+    "description": "Construction of other civil engineering projects n.e.c."
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4311",
+    "nic_5digit": "43110",
+    "description": "Demolition"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4312",
+    "nic_5digit": "43121",
+    "description": "Site preparation for mining"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4312",
+    "nic_5digit": "43122",
+    "description": "Site preparation for construction"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4312",
+    "nic_5digit": "43123",
+    "description": "Clearing of building sites"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4321",
+    "nic_5digit": "43211",
+    "description": "Installation of electrical wiring and fittings"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4321",
+    "nic_5digit": "43212",
+    "description": "Installation of fire alarm systems"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4321",
+    "nic_5digit": "43213",
+    "description": "Installation of telecommunications wiring"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4321",
+    "nic_5digit": "43219",
+    "description": "Other electrical installation n.e.c."
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4322",
+    "nic_5digit": "43221",
+    "description": "Installation of plumbing and sanitary equipment"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4322",
+    "nic_5digit": "43222",
+    "description": "Installation of heating systems"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4322",
+    "nic_5digit": "43229",
+    "description": "Other plumbing and air-conditioning installation n.e.c."
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4329",
+    "nic_5digit": "43291",
+    "description": "Installation of elevators and escalators"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4329",
+    "nic_5digit": "43292",
+    "description": "Installation of thermal insulation"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4329",
+    "nic_5digit": "43293",
+    "description": "Installation of fencing"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4329",
+    "nic_5digit": "43299",
+    "description": "Other construction installation n.e.c."
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4330",
+    "nic_5digit": "43301",
+    "description": "Plastering"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4330",
+    "nic_5digit": "43302",
+    "description": "Joinery installation"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4330",
+    "nic_5digit": "43303",
+    "description": "Painting and glazing"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4330",
+    "nic_5digit": "43304",
+    "description": "Floor and wall tiling"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4330",
+    "nic_5digit": "43309",
+    "description": "Other building completion and finishing n.e.c."
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4390",
+    "nic_5digit": "43901",
+    "description": "Construction of swimming pools"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4390",
+    "nic_5digit": "43902",
+    "description": "Scaffolding and other construction support activities"
+  },
+  {
+    "nic_2digit": "43",
+    "nic_4digit": "4390",
+    "nic_5digit": "43909",
+    "description": "Other specialised construction activities n.e.c."
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4510",
+    "nic_5digit": "45101",
+    "description": "Wholesale and retail sale of new motor vehicles"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4510",
+    "nic_5digit": "45102",
+    "description": "Wholesale and retail sale of used motor vehicles"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4520",
+    "nic_5digit": "45201",
+    "description": "Maintenance and repair of motor vehicles"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4520",
+    "nic_5digit": "45202",
+    "description": "Washing and polishing of motor vehicles"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4530",
+    "nic_5digit": "45301",
+    "description": "Wholesale and retail sale of motor vehicle parts and accessories"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4530",
+    "nic_5digit": "45302",
+    "description": "Retail sale of tyres and batteries"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4540",
+    "nic_5digit": "45401",
+    "description": "Sale of motorcycles and scooters"
+  },
+  {
+    "nic_2digit": "45",
+    "nic_4digit": "4540",
+    "nic_5digit": "45402",
+    "description": "Maintenance and repair of motorcycles"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4610",
+    "nic_5digit": "46101",
+    "description": "Wholesale on a fee or contract basis of agricultural raw materials"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4610",
+    "nic_5digit": "46102",
+    "description": "Wholesale on a fee or contract basis of textiles and clothing"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4610",
+    "nic_5digit": "46109",
+    "description": "Wholesale on a fee or contract basis of other goods n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46201",
+    "description": "Wholesale of grains and oilseeds"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46202",
+    "description": "Wholesale of unmanufactured tobacco"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46203",
+    "description": "Wholesale of flowers and plants"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46204",
+    "description": "Wholesale of live animals"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46205",
+    "description": "Wholesale of hides, skins and leather"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4620",
+    "nic_5digit": "46209",
+    "description": "Wholesale of other agricultural raw materials n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46301",
+    "description": "Wholesale of fruits and vegetables"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46302",
+    "description": "Wholesale of dairy products"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46303",
+    "description": "Wholesale of meat, fish and poultry"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46304",
+    "description": "Wholesale of bakery products"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46305",
+    "description": "Wholesale of confectionery"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46306",
+    "description": "Wholesale of beverages"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46307",
+    "description": "Wholesale of tea, coffee and spices"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46308",
+    "description": "Wholesale of tobacco products"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4630",
+    "nic_5digit": "46309",
+    "description": "Wholesale of other food products n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4641",
+    "nic_5digit": "46411",
+    "description": "Wholesale of textiles and clothing"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4641",
+    "nic_5digit": "46412",
+    "description": "Wholesale of household textiles"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46491",
+    "description": "Wholesale of household furniture"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46492",
+    "description": "Wholesale of household appliances"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46493",
+    "description": "Wholesale of cutlery and hardware"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46494",
+    "description": "Wholesale of pharmaceuticals and medical goods"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46495",
+    "description": "Wholesale of cosmetics and toiletries"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46496",
+    "description": "Wholesale of watches, clocks and jewellery"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46497",
+    "description": "Wholesale of sports goods and games"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46498",
+    "description": "Wholesale of leather goods and luggage"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4649",
+    "nic_5digit": "46499",
+    "description": "Wholesale of other household goods n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4651",
+    "nic_5digit": "46511",
+    "description": "Wholesale of computers and computer peripheral equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4651",
+    "nic_5digit": "46512",
+    "description": "Wholesale of software"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4651",
+    "nic_5digit": "46519",
+    "description": "Wholesale of other computer and electronic equipment n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4652",
+    "nic_5digit": "46521",
+    "description": "Wholesale of electronic and telecommunications equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4652",
+    "nic_5digit": "46522",
+    "description": "Wholesale of electronic valves and tubes"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4652",
+    "nic_5digit": "46529",
+    "description": "Wholesale of other electronic and telecommunications equipment n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4661",
+    "nic_5digit": "46610",
+    "description": "Wholesale of agricultural machinery and equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4662",
+    "nic_5digit": "46620",
+    "description": "Wholesale of machine tools"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4663",
+    "nic_5digit": "46631",
+    "description": "Wholesale of mining and construction machinery"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4663",
+    "nic_5digit": "46639",
+    "description": "Wholesale of other machinery for specific industries n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4669",
+    "nic_5digit": "46691",
+    "description": "Wholesale of transport equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4669",
+    "nic_5digit": "46692",
+    "description": "Wholesale of electrical equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4669",
+    "nic_5digit": "46699",
+    "description": "Wholesale of other machinery and equipment n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4671",
+    "nic_5digit": "46710",
+    "description": "Wholesale of solid, liquid and gaseous fuels"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4672",
+    "nic_5digit": "46720",
+    "description": "Wholesale of metals and metal ores"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4673",
+    "nic_5digit": "46731",
+    "description": "Wholesale of wood and cork"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4673",
+    "nic_5digit": "46732",
+    "description": "Wholesale of construction materials"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4673",
+    "nic_5digit": "46733",
+    "description": "Wholesale of sanitary equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4673",
+    "nic_5digit": "46739",
+    "description": "Wholesale of other construction materials n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4674",
+    "nic_5digit": "46741",
+    "description": "Wholesale of hardware and tools"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4674",
+    "nic_5digit": "46742",
+    "description": "Wholesale of plumbing and heating equipment"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4674",
+    "nic_5digit": "46749",
+    "description": "Wholesale of other hardware n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4675",
+    "nic_5digit": "46750",
+    "description": "Wholesale of chemical products"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4676",
+    "nic_5digit": "46761",
+    "description": "Wholesale of fertilizers and agrochemical products"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4676",
+    "nic_5digit": "46769",
+    "description": "Wholesale of other intermediate products n.e.c."
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4677",
+    "nic_5digit": "46770",
+    "description": "Wholesale of waste and scrap"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4690",
+    "nic_5digit": "46901",
+    "description": "Wholesale of stationery and books"
+  },
+  {
+    "nic_2digit": "46",
+    "nic_4digit": "4690",
+    "nic_5digit": "46909",
+    "description": "Wholesale of other miscellaneous goods n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4711",
+    "nic_5digit": "47110",
+    "description": "Retail sale in non-specialized stores with food, beverages or tobacco predominating"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4719",
+    "nic_5digit": "47190",
+    "description": "Other retail sale in non-specialized stores"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4721",
+    "nic_5digit": "47211",
+    "description": "Retail sale of fresh fruits and vegetables"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4721",
+    "nic_5digit": "47212",
+    "description": "Retail sale of fresh meat and fish"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4721",
+    "nic_5digit": "47213",
+    "description": "Retail sale of dairy products and eggs"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4721",
+    "nic_5digit": "47214",
+    "description": "Retail sale of bakery products"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4721",
+    "nic_5digit": "47219",
+    "description": "Retail sale of other food items n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4722",
+    "nic_5digit": "47220",
+    "description": "Retail sale of beverages"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4723",
+    "nic_5digit": "47231",
+    "description": "Retail sale of tobacco products"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4730",
+    "nic_5digit": "47300",
+    "description": "Retail sale of automotive fuel in specialised stores"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4741",
+    "nic_5digit": "47411",
+    "description": "Retail sale of computers and computer peripherals"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4741",
+    "nic_5digit": "47412",
+    "description": "Retail sale of software"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4742",
+    "nic_5digit": "47420",
+    "description": "Retail sale of telecommunications equipment"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4751",
+    "nic_5digit": "47510",
+    "description": "Retail sale of textiles in specialised stores"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4752",
+    "nic_5digit": "47521",
+    "description": "Retail sale of hardware, paints and glass"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4752",
+    "nic_5digit": "47522",
+    "description": "Retail sale of building materials"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4753",
+    "nic_5digit": "47531",
+    "description": "Retail sale of carpets and rugs"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4753",
+    "nic_5digit": "47532",
+    "description": "Retail sale of curtains and net curtains"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4753",
+    "nic_5digit": "47539",
+    "description": "Retail sale of other household textiles n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4759",
+    "nic_5digit": "47591",
+    "description": "Retail sale of household furniture"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4759",
+    "nic_5digit": "47592",
+    "description": "Retail sale of household appliances"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4759",
+    "nic_5digit": "47593",
+    "description": "Retail sale of lamps and lighting equipment"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4759",
+    "nic_5digit": "47599",
+    "description": "Retail sale of other household goods n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4761",
+    "nic_5digit": "47610",
+    "description": "Retail sale of books"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4762",
+    "nic_5digit": "47620",
+    "description": "Retail sale of newspapers and stationery"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4763",
+    "nic_5digit": "47631",
+    "description": "Retail sale of music and video recordings"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4763",
+    "nic_5digit": "47639",
+    "description": "Retail sale of other entertainment goods n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4764",
+    "nic_5digit": "47640",
+    "description": "Retail sale of sporting equipment"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4765",
+    "nic_5digit": "47650",
+    "description": "Retail sale of games and toys"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4771",
+    "nic_5digit": "47711",
+    "description": "Retail sale of clothing"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4771",
+    "nic_5digit": "47712",
+    "description": "Retail sale of footwear"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4771",
+    "nic_5digit": "47713",
+    "description": "Retail sale of leather goods and travel accessories"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4772",
+    "nic_5digit": "47721",
+    "description": "Retail sale of watches and clocks"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4772",
+    "nic_5digit": "47722",
+    "description": "Retail sale of jewellery"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4772",
+    "nic_5digit": "47729",
+    "description": "Retail sale of other personal accessories n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4773",
+    "nic_5digit": "47731",
+    "description": "Retail sale of pharmaceuticals"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4773",
+    "nic_5digit": "47732",
+    "description": "Retail sale of medical and orthopaedic goods"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4773",
+    "nic_5digit": "47733",
+    "description": "Retail sale of perfumery and cosmetic articles"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4774",
+    "nic_5digit": "47740",
+    "description": "Retail sale of second-hand goods"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4775",
+    "nic_5digit": "47751",
+    "description": "Retail sale of flowers and plants"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4775",
+    "nic_5digit": "47752",
+    "description": "Retail sale of fertilizers and pet supplies"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4775",
+    "nic_5digit": "47759",
+    "description": "Retail sale of other specialised goods n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4776",
+    "nic_5digit": "47760",
+    "description": "Retail sale of souvenirs and antique goods"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47771",
+    "description": "Retail sale of watches (specialised)"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47772",
+    "description": "Retail sale of optical goods"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47773",
+    "description": "Retail sale of photographic equipment"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47774",
+    "description": "Retail sale of gifts and novelties"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47775",
+    "description": "Retail sale of crafts and art supplies"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4777",
+    "nic_5digit": "47779",
+    "description": "Other retail sale of new goods in specialised stores n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4778",
+    "nic_5digit": "47780",
+    "description": "Retail sale of second-hand goods"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4779",
+    "nic_5digit": "47791",
+    "description": "Retail sale of carpets and other floor coverings"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4779",
+    "nic_5digit": "47792",
+    "description": "Retail sale of bicycles and related accessories"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4779",
+    "nic_5digit": "47793",
+    "description": "Retail sale of handicrafts"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4779",
+    "nic_5digit": "47799",
+    "description": "Other retail sale of new goods n.e.c."
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4781",
+    "nic_5digit": "47810",
+    "description": "Retail sale of motor vehicle fuels"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4782",
+    "nic_5digit": "47820",
+    "description": "Retail sale of textiles, clothing and footwear via stalls and markets"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4789",
+    "nic_5digit": "47890",
+    "description": "Retail sale of other goods via stalls and markets"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4791",
+    "nic_5digit": "47911",
+    "description": "Retail sale via mail order houses or via Internet"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4791",
+    "nic_5digit": "47912",
+    "description": "Retail sale via television"
+  },
+  {
+    "nic_2digit": "47",
+    "nic_4digit": "4799",
+    "nic_5digit": "47990",
+    "description": "Other retail sale not in stores, stalls or markets"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4911",
+    "nic_5digit": "49110",
+    "description": "Passenger rail transport"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4912",
+    "nic_5digit": "49120",
+    "description": "Freight rail transport"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4921",
+    "nic_5digit": "49211",
+    "description": "Urban and suburban passenger rail transport (metro)"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4921",
+    "nic_5digit": "49212",
+    "description": "Urban and suburban bus transport"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4922",
+    "nic_5digit": "49221",
+    "description": "Motor cab and taxi operation"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4922",
+    "nic_5digit": "49222",
+    "description": "Operation of auto-rickshaws"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4922",
+    "nic_5digit": "49223",
+    "description": "App-based taxi services"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4923",
+    "nic_5digit": "49231",
+    "description": "Freight transport by road"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4923",
+    "nic_5digit": "49232",
+    "description": "Refrigerated road freight"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4923",
+    "nic_5digit": "49233",
+    "description": "Tank truck freight"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4923",
+    "nic_5digit": "49239",
+    "description": "Other road freight n.e.c."
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4930",
+    "nic_5digit": "49301",
+    "description": "Urban and suburban passenger land transport (other than rail)"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4930",
+    "nic_5digit": "49309",
+    "description": "Other passenger land transport n.e.c."
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4941",
+    "nic_5digit": "49410",
+    "description": "Freight transport by road (own-account)"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4942",
+    "nic_5digit": "49420",
+    "description": "Removal services"
+  },
+  {
+    "nic_2digit": "49",
+    "nic_4digit": "4950",
+    "nic_5digit": "49500",
+    "description": "Transport via pipeline"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5011",
+    "nic_5digit": "50111",
+    "description": "Coastal and transoceanic water transport of passengers"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5011",
+    "nic_5digit": "50112",
+    "description": "Inland water transport of passengers"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5012",
+    "nic_5digit": "50120",
+    "description": "Sea and coastal freight water transport"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5013",
+    "nic_5digit": "50130",
+    "description": "Inland water freight transport"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5021",
+    "nic_5digit": "50211",
+    "description": "Long-distance passenger water transport"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5021",
+    "nic_5digit": "50212",
+    "description": "Ferry services"
+  },
+  {
+    "nic_2digit": "50",
+    "nic_4digit": "5022",
+    "nic_5digit": "50220",
+    "description": "Freight water transport"
+  },
+  {
+    "nic_2digit": "51",
+    "nic_4digit": "5110",
+    "nic_5digit": "51101",
+    "description": "Scheduled passenger air transport"
+  },
+  {
+    "nic_2digit": "51",
+    "nic_4digit": "5110",
+    "nic_5digit": "51102",
+    "description": "Non-scheduled passenger air transport"
+  },
+  {
+    "nic_2digit": "51",
+    "nic_4digit": "5120",
+    "nic_5digit": "51201",
+    "description": "Scheduled freight air transport"
+  },
+  {
+    "nic_2digit": "51",
+    "nic_4digit": "5120",
+    "nic_5digit": "51202",
+    "description": "Non-scheduled freight air transport"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5210",
+    "nic_5digit": "52101",
+    "description": "Warehousing of agricultural products"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5210",
+    "nic_5digit": "52102",
+    "description": "Warehousing of textiles"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5210",
+    "nic_5digit": "52103",
+    "description": "Refrigerated warehousing"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5210",
+    "nic_5digit": "52109",
+    "description": "Other warehousing n.e.c."
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5221",
+    "nic_5digit": "52211",
+    "description": "Service activities incidental to rail transport"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5221",
+    "nic_5digit": "52212",
+    "description": "Service activities incidental to road transport (bus stations)"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5222",
+    "nic_5digit": "52220",
+    "description": "Service activities incidental to water transport"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5223",
+    "nic_5digit": "52230",
+    "description": "Service activities incidental to air transport"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5224",
+    "nic_5digit": "52241",
+    "description": "Cargo handling at ports"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5224",
+    "nic_5digit": "52242",
+    "description": "Cargo handling at airports"
+  },
+  {
+    "nic_2digit": "52",
+    "nic_4digit": "5224",
+    "nic_5digit": "52249",
+    "description": "Cargo handling at other transport hubs n.e.c."
+  },
+  {
+    "nic_2digit": "53",
+    "nic_4digit": "5310",
+    "nic_5digit": "53101",
+    "description": "National postal activities"
+  },
+  {
+    "nic_2digit": "53",
+    "nic_4digit": "5310",
+    "nic_5digit": "53102",
+    "description": "Postal courier activities"
+  },
+  {
+    "nic_2digit": "53",
+    "nic_4digit": "5320",
+    "nic_5digit": "53200",
+    "description": "Courier activities other than national post"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55101",
+    "description": "Hotels"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55102",
+    "description": "Motels and inns"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55103",
+    "description": "Resorts"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55104",
+    "description": "Guest houses"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55105",
+    "description": "Bed and breakfast accommodation"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5510",
+    "nic_5digit": "55109",
+    "description": "Other short-term accommodation n.e.c."
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5520",
+    "nic_5digit": "55201",
+    "description": "Recreational camps"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5520",
+    "nic_5digit": "55202",
+    "description": "Mountain huts and hostels"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5520",
+    "nic_5digit": "55209",
+    "description": "Other camping grounds n.e.c."
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5590",
+    "nic_5digit": "55901",
+    "description": "Dormitories"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5590",
+    "nic_5digit": "55902",
+    "description": "Hostels for students and workers"
+  },
+  {
+    "nic_2digit": "55",
+    "nic_4digit": "5590",
+    "nic_5digit": "55909",
+    "description": "Other accommodation n.e.c."
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5610",
+    "nic_5digit": "56101",
+    "description": "Restaurants and mobile food service activities"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5610",
+    "nic_5digit": "56102",
+    "description": "Dhabas and roadside eateries"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5610",
+    "nic_5digit": "56103",
+    "description": "Cafeterias"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5610",
+    "nic_5digit": "56109",
+    "description": "Other restaurants and food service n.e.c."
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5621",
+    "nic_5digit": "56210",
+    "description": "Event catering"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5622",
+    "nic_5digit": "56220",
+    "description": "Contract food service activities for transportation"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5629",
+    "nic_5digit": "56291",
+    "description": "Industrial canteens"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5629",
+    "nic_5digit": "56292",
+    "description": "Educational institution canteens"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5629",
+    "nic_5digit": "56299",
+    "description": "Other contract food service n.e.c."
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5630",
+    "nic_5digit": "56301",
+    "description": "Bars and taverns"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5630",
+    "nic_5digit": "56302",
+    "description": "Beer parlours and pubs"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5630",
+    "nic_5digit": "56303",
+    "description": "Wine bars"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5630",
+    "nic_5digit": "56304",
+    "description": "Coffee shops and tea stalls"
+  },
+  {
+    "nic_2digit": "56",
+    "nic_4digit": "5630",
+    "nic_5digit": "56309",
+    "description": "Other beverage serving activities n.e.c."
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5811",
+    "nic_5digit": "58111",
+    "description": "Publishing of books"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5811",
+    "nic_5digit": "58112",
+    "description": "Publishing of atlases, maps and charts"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5811",
+    "nic_5digit": "58113",
+    "description": "Publishing of encyclopaedias"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5811",
+    "nic_5digit": "58119",
+    "description": "Other book publishing n.e.c."
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5812",
+    "nic_5digit": "58121",
+    "description": "Publishing of newspapers"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5812",
+    "nic_5digit": "58122",
+    "description": "Publishing of journals and periodicals"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5813",
+    "nic_5digit": "58131",
+    "description": "Publishing of newspapers (print)"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5813",
+    "nic_5digit": "58132",
+    "description": "Publishing of online news"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5819",
+    "nic_5digit": "58191",
+    "description": "Publishing of directories and mailing lists"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5819",
+    "nic_5digit": "58192",
+    "description": "Publishing of catalogues and photos"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5819",
+    "nic_5digit": "58199",
+    "description": "Other publishing activities n.e.c."
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5820",
+    "nic_5digit": "58201",
+    "description": "Publishing of packaged (non-customised) software"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5820",
+    "nic_5digit": "58202",
+    "description": "Publishing of operating systems"
+  },
+  {
+    "nic_2digit": "58",
+    "nic_4digit": "5820",
+    "nic_5digit": "58209",
+    "description": "Other software publishing n.e.c."
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5911",
+    "nic_5digit": "59111",
+    "description": "Motion picture production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5911",
+    "nic_5digit": "59112",
+    "description": "Television programme production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5911",
+    "nic_5digit": "59113",
+    "description": "Short film production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5911",
+    "nic_5digit": "59114",
+    "description": "Animation production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5911",
+    "nic_5digit": "59119",
+    "description": "Other motion picture and video production n.e.c."
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5912",
+    "nic_5digit": "59121",
+    "description": "Motion picture post-production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5912",
+    "nic_5digit": "59122",
+    "description": "Video editing"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5912",
+    "nic_5digit": "59123",
+    "description": "Animation post-production"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5912",
+    "nic_5digit": "59129",
+    "description": "Other post-production activities n.e.c."
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5913",
+    "nic_5digit": "59131",
+    "description": "Motion picture distribution"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5913",
+    "nic_5digit": "59132",
+    "description": "Video tape and DVD distribution"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5913",
+    "nic_5digit": "59133",
+    "description": "Online film distribution"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5914",
+    "nic_5digit": "59141",
+    "description": "Motion picture exhibition in cinemas"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5914",
+    "nic_5digit": "59149",
+    "description": "Other motion picture projection activities n.e.c."
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5920",
+    "nic_5digit": "59201",
+    "description": "Sound recording and music publishing activities"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5920",
+    "nic_5digit": "59202",
+    "description": "Production of recorded music"
+  },
+  {
+    "nic_2digit": "59",
+    "nic_4digit": "5920",
+    "nic_5digit": "59209",
+    "description": "Other sound recording activities n.e.c."
+  },
+  {
+    "nic_2digit": "60",
+    "nic_4digit": "6010",
+    "nic_5digit": "60101",
+    "description": "Radio broadcasting"
+  },
+  {
+    "nic_2digit": "60",
+    "nic_4digit": "6010",
+    "nic_5digit": "60102",
+    "description": "Internet radio"
+  },
+  {
+    "nic_2digit": "60",
+    "nic_4digit": "6020",
+    "nic_5digit": "60201",
+    "description": "Television broadcasting"
+  },
+  {
+    "nic_2digit": "60",
+    "nic_4digit": "6020",
+    "nic_5digit": "60202",
+    "description": "Subscription television"
+  },
+  {
+    "nic_2digit": "60",
+    "nic_4digit": "6020",
+    "nic_5digit": "60203",
+    "description": "Internet television"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6110",
+    "nic_5digit": "61101",
+    "description": "Wired telecommunications activities"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6110",
+    "nic_5digit": "61102",
+    "description": "Activities of basic telecom services (BSNL, MTNL)"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6110",
+    "nic_5digit": "61103",
+    "description": "Activities of telecom operators (private)"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6110",
+    "nic_5digit": "61104",
+    "description": "Activities of internet service providers"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6110",
+    "nic_5digit": "61109",
+    "description": "Other wired telecommunications n.e.c."
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6120",
+    "nic_5digit": "61201",
+    "description": "Wireless telecommunications activities"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6120",
+    "nic_5digit": "61202",
+    "description": "Activities of mobile telecom operators"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6120",
+    "nic_5digit": "61209",
+    "description": "Other wireless telecommunications n.e.c."
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6130",
+    "nic_5digit": "61301",
+    "description": "Satellite telecommunications activities"
+  },
+  {
+    "nic_2digit": "61",
+    "nic_4digit": "6130",
+    "nic_5digit": "61309",
+    "description": "Other telecommunications activities n.e.c."
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62011",
+    "description": "Writing, modifying, testing of computer program/software to meet the needs of a particular client"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62012",
+    "description": "Web-page design"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62013",
+    "description": "Providing software support and maintenance to clients"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62014",
+    "description": "Custom software development"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62015",
+    "description": "Mobile application development"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6201",
+    "nic_5digit": "62019",
+    "description": "Other software development n.e.c."
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6202",
+    "nic_5digit": "62020",
+    "description": "Computer consultancy and computer facilities management activities"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6209",
+    "nic_5digit": "62091",
+    "description": "Computer disaster recovery services"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6209",
+    "nic_5digit": "62092",
+    "description": "Installation of computer software"
+  },
+  {
+    "nic_2digit": "62",
+    "nic_4digit": "6209",
+    "nic_5digit": "62099",
+    "description": "Other information technology and computer service activities n.e.c."
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6311",
+    "nic_5digit": "63111",
+    "description": "Data processing activities including report writing"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6311",
+    "nic_5digit": "63112",
+    "description": "Web hosting activities"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6311",
+    "nic_5digit": "63113",
+    "description": "Cloud computing services"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6311",
+    "nic_5digit": "63114",
+    "description": "Data entry services"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6312",
+    "nic_5digit": "63121",
+    "description": "Operation of web portals"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6312",
+    "nic_5digit": "63122",
+    "description": "Operation of search engines"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6312",
+    "nic_5digit": "63129",
+    "description": "Other web-based services n.e.c."
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6391",
+    "nic_5digit": "63910",
+    "description": "News agency activities"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6399",
+    "nic_5digit": "63991",
+    "description": "Other information service activities n.e.c."
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6399",
+    "nic_5digit": "63992",
+    "description": "Telephone based information services"
+  },
+  {
+    "nic_2digit": "63",
+    "nic_4digit": "6399",
+    "nic_5digit": "63999",
+    "description": "Other information service activities n.e.c."
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6411",
+    "nic_5digit": "64110",
+    "description": "Central banking"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6412",
+    "nic_5digit": "64120",
+    "description": "Scheduled commercial banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6413",
+    "nic_5digit": "64131",
+    "description": "Cooperative banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6413",
+    "nic_5digit": "64132",
+    "description": "Regional rural banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6419",
+    "nic_5digit": "64191",
+    "description": "Monetary intermediation of commercial banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6419",
+    "nic_5digit": "64192",
+    "description": "Monetary intermediation of cooperative banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6419",
+    "nic_5digit": "64199",
+    "description": "Other monetary intermediation n.e.c."
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6420",
+    "nic_5digit": "64200",
+    "description": "Activities of holding companies"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6430",
+    "nic_5digit": "64301",
+    "description": "Trusts and funds"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6430",
+    "nic_5digit": "64309",
+    "description": "Other trusts, funds and similar financial entities n.e.c."
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6491",
+    "nic_5digit": "64910",
+    "description": "Financial leasing"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6492",
+    "nic_5digit": "64920",
+    "description": "Other credit granting"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6499",
+    "nic_5digit": "64991",
+    "description": "Investment activities of savings banks"
+  },
+  {
+    "nic_2digit": "64",
+    "nic_4digit": "6499",
+    "nic_5digit": "64999",
+    "description": "Other financial service activities n.e.c."
+  },
+  {
+    "nic_2digit": "65",
+    "nic_4digit": "6511",
+    "nic_5digit": "65110",
+    "description": "Life insurance"
+  },
+  {
+    "nic_2digit": "65",
+    "nic_4digit": "6512",
+    "nic_5digit": "65120",
+    "description": "Non-life insurance"
+  },
+  {
+    "nic_2digit": "65",
+    "nic_4digit": "6520",
+    "nic_5digit": "65200",
+    "description": "Reinsurance"
+  },
+  {
+    "nic_2digit": "65",
+    "nic_4digit": "6530",
+    "nic_5digit": "65300",
+    "description": "Pension funding"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6611",
+    "nic_5digit": "66110",
+    "description": "Administration of financial markets"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6612",
+    "nic_5digit": "66120",
+    "description": "Security and commodity contracts brokerage"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6619",
+    "nic_5digit": "66191",
+    "description": "Foreign exchange services"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6619",
+    "nic_5digit": "66192",
+    "description": "Money-changing services"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6619",
+    "nic_5digit": "66199",
+    "description": "Other activities auxiliary to financial service activities n.e.c."
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6621",
+    "nic_5digit": "66210",
+    "description": "Risk and damage evaluation"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6622",
+    "nic_5digit": "66220",
+    "description": "Activities of insurance agents and brokers"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6629",
+    "nic_5digit": "66291",
+    "description": "Actuarial services"
+  },
+  {
+    "nic_2digit": "66",
+    "nic_4digit": "6629",
+    "nic_5digit": "66299",
+    "description": "Other activities auxiliary to insurance and pension funding n.e.c."
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6810",
+    "nic_5digit": "68101",
+    "description": "Real estate activities with own or leased property"
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6810",
+    "nic_5digit": "68102",
+    "description": "Buying and selling of own real estate"
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6810",
+    "nic_5digit": "68103",
+    "description": "Letting of own property"
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6810",
+    "nic_5digit": "68109",
+    "description": "Other real estate activities with own property n.e.c."
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6820",
+    "nic_5digit": "68201",
+    "description": "Activities of real estate agents and brokers"
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6820",
+    "nic_5digit": "68202",
+    "description": "Real estate management on a fee or contract basis"
+  },
+  {
+    "nic_2digit": "68",
+    "nic_4digit": "6820",
+    "nic_5digit": "68209",
+    "description": "Other real estate activities on a fee or contract basis n.e.c."
+  },
+  {
+    "nic_2digit": "69",
+    "nic_4digit": "6910",
+    "nic_5digit": "69100",
+    "description": "Legal activities"
+  },
+  {
+    "nic_2digit": "69",
+    "nic_4digit": "6920",
+    "nic_5digit": "69201",
+    "description": "Accounting, bookkeeping and auditing activities"
+  },
+  {
+    "nic_2digit": "69",
+    "nic_4digit": "6920",
+    "nic_5digit": "69202",
+    "description": "Tax consultancy"
+  },
+  {
+    "nic_2digit": "69",
+    "nic_4digit": "6920",
+    "nic_5digit": "69203",
+    "description": "Payroll services"
+  },
+  {
+    "nic_2digit": "69",
+    "nic_4digit": "6920",
+    "nic_5digit": "69209",
+    "description": "Other accounting-related activities n.e.c."
+  },
+  {
+    "nic_2digit": "70",
+    "nic_4digit": "7010",
+    "nic_5digit": "70100",
+    "description": "Activities of head offices"
+  },
+  {
+    "nic_2digit": "70",
+    "nic_4digit": "7020",
+    "nic_5digit": "70200",
+    "description": "Management consultancy activities"
+  },
+  {
+    "nic_2digit": "70",
+    "nic_4digit": "7021",
+    "nic_5digit": "70210",
+    "description": "Public relations and communication activities"
+  },
+  {
+    "nic_2digit": "70",
+    "nic_4digit": "7022",
+    "nic_5digit": "70220",
+    "description": "Business and other management consultancy activities"
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7110",
+    "nic_5digit": "71100",
+    "description": "Architectural and engineering activities and related technical consultancy"
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7111",
+    "nic_5digit": "71110",
+    "description": "Architectural activities"
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7112",
+    "nic_5digit": "71121",
+    "description": "Engineering activities"
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7112",
+    "nic_5digit": "71122",
+    "description": "Geophysical surveying"
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7112",
+    "nic_5digit": "71129",
+    "description": "Other engineering activities n.e.c."
+  },
+  {
+    "nic_2digit": "71",
+    "nic_4digit": "7120",
+    "nic_5digit": "71200",
+    "description": "Technical testing and analysis"
+  },
+  {
+    "nic_2digit": "72",
+    "nic_4digit": "7210",
+    "nic_5digit": "72100",
+    "description": "Research and experimental development on natural sciences and engineering"
+  },
+  {
+    "nic_2digit": "72",
+    "nic_4digit": "7220",
+    "nic_5digit": "72200",
+    "description": "Research and experimental development on social sciences and humanities"
+  },
+  {
+    "nic_2digit": "73",
+    "nic_4digit": "7311",
+    "nic_5digit": "73110",
+    "description": "Advertising"
+  },
+  {
+    "nic_2digit": "73",
+    "nic_4digit": "7312",
+    "nic_5digit": "73120",
+    "description": "Media representation"
+  },
+  {
+    "nic_2digit": "73",
+    "nic_4digit": "7320",
+    "nic_5digit": "73200",
+    "description": "Market research and public opinion polling"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7410",
+    "nic_5digit": "74100",
+    "description": "Specialised design activities"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7420",
+    "nic_5digit": "74201",
+    "description": "Photographic activities"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7420",
+    "nic_5digit": "74202",
+    "description": "Videography"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7420",
+    "nic_5digit": "74209",
+    "description": "Other photographic activities n.e.c."
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7490",
+    "nic_5digit": "74901",
+    "description": "Translation and interpretation activities"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7490",
+    "nic_5digit": "74902",
+    "description": "Business brokerage activities"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7490",
+    "nic_5digit": "74903",
+    "description": "Patent brokerage activities"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7490",
+    "nic_5digit": "74904",
+    "description": "Appraisal activities (other than real estate)"
+  },
+  {
+    "nic_2digit": "74",
+    "nic_4digit": "7490",
+    "nic_5digit": "74909",
+    "description": "Other professional, scientific and technical activities n.e.c."
+  },
+  {
+    "nic_2digit": "75",
+    "nic_4digit": "7500",
+    "nic_5digit": "75001",
+    "description": "Veterinary activities for pet animals"
+  },
+  {
+    "nic_2digit": "75",
+    "nic_4digit": "7500",
+    "nic_5digit": "75002",
+    "description": "Veterinary activities for livestock"
+  },
+  {
+    "nic_2digit": "75",
+    "nic_4digit": "7500",
+    "nic_5digit": "75009",
+    "description": "Other veterinary activities n.e.c."
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7710",
+    "nic_5digit": "77100",
+    "description": "Renting and leasing of motor vehicles"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7721",
+    "nic_5digit": "77210",
+    "description": "Renting and leasing of recreational and sports goods"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7722",
+    "nic_5digit": "77220",
+    "description": "Renting of video tapes and disks"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7729",
+    "nic_5digit": "77291",
+    "description": "Renting and leasing of textiles, clothing and footwear"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7729",
+    "nic_5digit": "77292",
+    "description": "Renting and leasing of furniture and household goods"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7729",
+    "nic_5digit": "77293",
+    "description": "Renting and leasing of machinery and equipment"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7729",
+    "nic_5digit": "77294",
+    "description": "Renting and leasing of construction and civil engineering machinery"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7729",
+    "nic_5digit": "77299",
+    "description": "Renting and leasing of other personal and household goods n.e.c."
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77301",
+    "description": "Leasing of agricultural machinery"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77302",
+    "description": "Leasing of construction machinery"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77303",
+    "description": "Leasing of office machinery"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77304",
+    "description": "Leasing of transport equipment"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77305",
+    "description": "Leasing of telecommunications equipment"
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7730",
+    "nic_5digit": "77309",
+    "description": "Leasing of other machinery and equipment n.e.c."
+  },
+  {
+    "nic_2digit": "77",
+    "nic_4digit": "7740",
+    "nic_5digit": "77400",
+    "description": "Leasing of intellectual property and similar products"
+  },
+  {
+    "nic_2digit": "78",
+    "nic_4digit": "7810",
+    "nic_5digit": "78100",
+    "description": "Activities of employment placement agencies"
+  },
+  {
+    "nic_2digit": "78",
+    "nic_4digit": "7820",
+    "nic_5digit": "78200",
+    "description": "Temporary employment agency activities"
+  },
+  {
+    "nic_2digit": "78",
+    "nic_4digit": "7830",
+    "nic_5digit": "78300",
+    "description": "Provision of human resources for client businesses"
+  },
+  {
+    "nic_2digit": "79",
+    "nic_4digit": "7911",
+    "nic_5digit": "79110",
+    "description": "Travel agency activities"
+  },
+  {
+    "nic_2digit": "79",
+    "nic_4digit": "7912",
+    "nic_5digit": "79120",
+    "description": "Tour operator activities"
+  },
+  {
+    "nic_2digit": "79",
+    "nic_4digit": "7990",
+    "nic_5digit": "79900",
+    "description": "Other reservation service activities"
+  },
+  {
+    "nic_2digit": "80",
+    "nic_4digit": "8010",
+    "nic_5digit": "80101",
+    "description": "Private security activities"
+  },
+  {
+    "nic_2digit": "80",
+    "nic_4digit": "8010",
+    "nic_5digit": "80102",
+    "description": "Security services for individuals"
+  },
+  {
+    "nic_2digit": "80",
+    "nic_4digit": "8010",
+    "nic_5digit": "80109",
+    "description": "Other private security activities n.e.c."
+  },
+  {
+    "nic_2digit": "80",
+    "nic_4digit": "8020",
+    "nic_5digit": "80200",
+    "description": "Security systems service activities"
+  },
+  {
+    "nic_2digit": "80",
+    "nic_4digit": "8030",
+    "nic_5digit": "80300",
+    "description": "Investigation activities"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8110",
+    "nic_5digit": "81100",
+    "description": "Combined facilities support activities"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8121",
+    "nic_5digit": "81210",
+    "description": "General cleaning of buildings"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8122",
+    "nic_5digit": "81221",
+    "description": "Specialised cleaning of buildings"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8122",
+    "nic_5digit": "81222",
+    "description": "Cleaning of industrial machinery"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8122",
+    "nic_5digit": "81229",
+    "description": "Other specialised cleaning n.e.c."
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8129",
+    "nic_5digit": "81291",
+    "description": "Disinfecting and exterminating services"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8129",
+    "nic_5digit": "81292",
+    "description": "Window cleaning services"
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8129",
+    "nic_5digit": "81299",
+    "description": "Other building cleaning activities n.e.c."
+  },
+  {
+    "nic_2digit": "81",
+    "nic_4digit": "8130",
+    "nic_5digit": "81300",
+    "description": "Landscape service activities"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8211",
+    "nic_5digit": "82110",
+    "description": "Combined office administrative service activities"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8219",
+    "nic_5digit": "82191",
+    "description": "Photocopying and document preparation"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8219",
+    "nic_5digit": "82192",
+    "description": "Mailing and other business support services"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8219",
+    "nic_5digit": "82199",
+    "description": "Other office support service activities n.e.c."
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8220",
+    "nic_5digit": "82200",
+    "description": "Activities of call centres"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8230",
+    "nic_5digit": "82300",
+    "description": "Organisation of conventions and trade shows"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8291",
+    "nic_5digit": "82910",
+    "description": "Activities of collection agencies and credit bureaus"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8292",
+    "nic_5digit": "82920",
+    "description": "Packaging activities"
+  },
+  {
+    "nic_2digit": "82",
+    "nic_4digit": "8299",
+    "nic_5digit": "82991",
+    "description": "Business support service activities n.e.c."
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8411",
+    "nic_5digit": "84110",
+    "description": "General public administration activities"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8412",
+    "nic_5digit": "84121",
+    "description": "Public administration of health"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8412",
+    "nic_5digit": "84122",
+    "description": "Public administration of education"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8412",
+    "nic_5digit": "84123",
+    "description": "Public administration of housing"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8412",
+    "nic_5digit": "84124",
+    "description": "Public administration of urban planning"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8412",
+    "nic_5digit": "84129",
+    "description": "Public administration of other social and community services n.e.c."
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8421",
+    "nic_5digit": "84210",
+    "description": "Foreign affairs"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8422",
+    "nic_5digit": "84220",
+    "description": "Defence activities"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8423",
+    "nic_5digit": "84230",
+    "description": "Public order and safety activities"
+  },
+  {
+    "nic_2digit": "84",
+    "nic_4digit": "8430",
+    "nic_5digit": "84300",
+    "description": "Compulsory social security activities"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8510",
+    "nic_5digit": "85101",
+    "description": "Pre-primary education"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8510",
+    "nic_5digit": "85102",
+    "description": "Pre-primary schools (kindergarten)"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8521",
+    "nic_5digit": "85211",
+    "description": "General school education in the primary level"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8521",
+    "nic_5digit": "85212",
+    "description": "Primary schools"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8522",
+    "nic_5digit": "85221",
+    "description": "General school education in the secondary level"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8522",
+    "nic_5digit": "85222",
+    "description": "Secondary schools"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8522",
+    "nic_5digit": "85223",
+    "description": "Higher secondary schools"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8530",
+    "nic_5digit": "85301",
+    "description": "Higher education in arts and sciences (undergraduate)"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8530",
+    "nic_5digit": "85302",
+    "description": "Higher education in professional courses (engineering, medicine)"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8530",
+    "nic_5digit": "85303",
+    "description": "Postgraduate education"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8541",
+    "nic_5digit": "85410",
+    "description": "Sports and recreation education"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8542",
+    "nic_5digit": "85420",
+    "description": "Cultural education"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8549",
+    "nic_5digit": "85491",
+    "description": "Academic tutoring services"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8549",
+    "nic_5digit": "85492",
+    "description": "Computer training"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8549",
+    "nic_5digit": "85493",
+    "description": "Vocational training"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8549",
+    "nic_5digit": "85494",
+    "description": "Language instruction"
+  },
+  {
+    "nic_2digit": "85",
+    "nic_4digit": "8549",
+    "nic_5digit": "85499",
+    "description": "Other education n.e.c."
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8610",
+    "nic_5digit": "86100",
+    "description": "Hospital activities"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8610",
+    "nic_5digit": "86101",
+    "description": "Multi-specialty hospital activities"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8610",
+    "nic_5digit": "86102",
+    "description": "Specialty hospital activities"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8620",
+    "nic_5digit": "86201",
+    "description": "Medical practice activities"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8620",
+    "nic_5digit": "86202",
+    "description": "Dental practice activities"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8620",
+    "nic_5digit": "86203",
+    "description": "Specialist medical practice"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8620",
+    "nic_5digit": "86204",
+    "description": "General medical practice"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86901",
+    "description": "Diagnostic imaging services (X-ray, MRI)"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86902",
+    "description": "Medical laboratory services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86903",
+    "description": "Pathology services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86904",
+    "description": "Ambulance services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86905",
+    "description": "Blood bank services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86906",
+    "description": "Physiotherapy services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86907",
+    "description": "Home healthcare services"
+  },
+  {
+    "nic_2digit": "86",
+    "nic_4digit": "8690",
+    "nic_5digit": "86909",
+    "description": "Other human health activities n.e.c."
+  },
+  {
+    "nic_2digit": "87",
+    "nic_4digit": "8710",
+    "nic_5digit": "87100",
+    "description": "Residential nursing care facilities"
+  },
+  {
+    "nic_2digit": "87",
+    "nic_4digit": "8720",
+    "nic_5digit": "87200",
+    "description": "Residential care activities for mental retardation, mental health and substance abuse"
+  },
+  {
+    "nic_2digit": "87",
+    "nic_4digit": "8730",
+    "nic_5digit": "87300",
+    "description": "Residential care activities for the elderly and disabled"
+  },
+  {
+    "nic_2digit": "88",
+    "nic_4digit": "8810",
+    "nic_5digit": "88100",
+    "description": "Social work activities without accommodation for the elderly and disabled"
+  },
+  {
+    "nic_2digit": "88",
+    "nic_4digit": "8890",
+    "nic_5digit": "88900",
+    "description": "Other social work activities without accommodation n.e.c."
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90001",
+    "description": "Stage production and related activities"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90002",
+    "description": "Theatre production"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90003",
+    "description": "Dance production"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90004",
+    "description": "Artistic creation"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90005",
+    "description": "Activities of independent artists"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90006",
+    "description": "Activities of performing artists"
+  },
+  {
+    "nic_2digit": "90",
+    "nic_4digit": "9000",
+    "nic_5digit": "90009",
+    "description": "Other creative arts and entertainment activities n.e.c."
+  },
+  {
+    "nic_2digit": "91",
+    "nic_4digit": "9101",
+    "nic_5digit": "91010",
+    "description": "Library and archives activities"
+  },
+  {
+    "nic_2digit": "91",
+    "nic_4digit": "9102",
+    "nic_5digit": "91020",
+    "description": "Museums activities"
+  },
+  {
+    "nic_2digit": "91",
+    "nic_4digit": "9103",
+    "nic_5digit": "91030",
+    "description": "Operation of historical sites and buildings"
+  },
+  {
+    "nic_2digit": "91",
+    "nic_4digit": "9104",
+    "nic_5digit": "91040",
+    "description": "Botanical and zoological gardens and nature reserves activities"
+  },
+  {
+    "nic_2digit": "92",
+    "nic_4digit": "9200",
+    "nic_5digit": "92001",
+    "description": "Lottery activities"
+  },
+  {
+    "nic_2digit": "92",
+    "nic_4digit": "9200",
+    "nic_5digit": "92002",
+    "description": "Casino activities"
+  },
+  {
+    "nic_2digit": "92",
+    "nic_4digit": "9200",
+    "nic_5digit": "92003",
+    "description": "Online gambling"
+  },
+  {
+    "nic_2digit": "92",
+    "nic_4digit": "9200",
+    "nic_5digit": "92004",
+    "description": "Betting activities"
+  },
+  {
+    "nic_2digit": "92",
+    "nic_4digit": "9200",
+    "nic_5digit": "92009",
+    "description": "Other gambling and betting activities n.e.c."
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9311",
+    "nic_5digit": "93110",
+    "description": "Operation of sports facilities"
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9312",
+    "nic_5digit": "93120",
+    "description": "Activities of sports clubs"
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9319",
+    "nic_5digit": "93190",
+    "description": "Other sports activities"
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9321",
+    "nic_5digit": "93210",
+    "description": "Activities of amusement parks and theme parks"
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9329",
+    "nic_5digit": "93291",
+    "description": "Operation of fairs and amusement activities"
+  },
+  {
+    "nic_2digit": "93",
+    "nic_4digit": "9329",
+    "nic_5digit": "93299",
+    "description": "Other amusement and recreation activities n.e.c."
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9411",
+    "nic_5digit": "94110",
+    "description": "Activities of business and employers membership organisations"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9412",
+    "nic_5digit": "94120",
+    "description": "Activities of professional membership organisations"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9420",
+    "nic_5digit": "94200",
+    "description": "Activities of trade unions"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9491",
+    "nic_5digit": "94910",
+    "description": "Activities of religious organisations"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9492",
+    "nic_5digit": "94920",
+    "description": "Activities of political organisations"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9499",
+    "nic_5digit": "94991",
+    "description": "Activities of cultural and recreational associations"
+  },
+  {
+    "nic_2digit": "94",
+    "nic_4digit": "9499",
+    "nic_5digit": "94999",
+    "description": "Activities of other membership organisations n.e.c."
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9511",
+    "nic_5digit": "95110",
+    "description": "Repair of computers and peripheral equipment"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9512",
+    "nic_5digit": "95120",
+    "description": "Repair of communication equipment"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9521",
+    "nic_5digit": "95210",
+    "description": "Repair of consumer electronics"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9522",
+    "nic_5digit": "95220",
+    "description": "Repair of household appliances and home and garden equipment"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9523",
+    "nic_5digit": "95230",
+    "description": "Repair of footwear and leather goods"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9524",
+    "nic_5digit": "95240",
+    "description": "Repair of furniture and home furnishings"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9529",
+    "nic_5digit": "95291",
+    "description": "Repair of bicycles"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9529",
+    "nic_5digit": "95292",
+    "description": "Repair of watches, clocks and jewellery"
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9529",
+    "nic_5digit": "95293",
+    "description": "Repair of personal and household goods n.e.c."
+  },
+  {
+    "nic_2digit": "95",
+    "nic_4digit": "9529",
+    "nic_5digit": "95299",
+    "description": "Repair of other personal goods n.e.c."
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9601",
+    "nic_5digit": "96010",
+    "description": "Washing and (dry-) cleaning of textile and fur products"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9602",
+    "nic_5digit": "96020",
+    "description": "Hairdressing and other beauty treatment"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9603",
+    "nic_5digit": "96030",
+    "description": "Funeral and related activities"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96091",
+    "description": "Astrology and spiritual activities"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96092",
+    "description": "Pet care activities (grooming, boarding)"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96093",
+    "description": "Shoe-shine and other personal service activities"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96094",
+    "description": "Wedding planning services"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96095",
+    "description": "Valet parking services"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96096",
+    "description": "Self-service laundries"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96097",
+    "description": "Provision of domestic personnel (cooks, maids)"
+  },
+  {
+    "nic_2digit": "96",
+    "nic_4digit": "9609",
+    "nic_5digit": "96099",
+    "description": "Other personal service activities n.e.c."
+  },
+  {
+    "nic_2digit": "97",
+    "nic_4digit": "9700",
+    "nic_5digit": "97000",
+    "description": "Activities of households as employers of domestic personnel"
+  },
+  {
+    "nic_2digit": "98",
+    "nic_4digit": "9810",
+    "nic_5digit": "98100",
+    "description": "Undifferentiated goods-producing activities of private households for own use"
+  },
+  {
+    "nic_2digit": "98",
+    "nic_4digit": "9820",
+    "nic_5digit": "98200",
+    "description": "Undifferentiated service-producing activities of private households for own use"
+  },
+  {
+    "nic_2digit": "99",
+    "nic_4digit": "9900",
+    "nic_5digit": "99000",
+    "description": "Activities of extraterritorial organisations and bodies"
+  }
+]

@@ -1,0 +1,2338 @@
+
+
+# AINCURU × TAXLA
+
+# REAL IMPLEMENTATION MASTER PLAN — UPDATED
+
+## 0. First: freeze the truth
+
+There are now three separate sources of truth:
+
+```text
+1. Business/product requirements
+   ↓
+2. Official Udyam behavior/rules
+   ↓
+3. Existing codebase
+```
+
+They are not equal.
+
+The official Udyam portal is the authority for current government behavior. As of the current portal snapshot, it continues to publish the revised MSME limits and describes Udyam as the official government registration portal; it also explicitly says one Udyam Registration can contain multiple activities. ([Udyam Registration][1])
+
+Your internal Taxla documentation defines what **AINCURU should do around that government process**.
+
+Your current code is merely the starting implementation.
+
+So:
+
+> **Do not make the existing code the specification.**
+
+---
+
+# 1. What you already have
+
+The existing repository is not worthless.
+
+You already have:
+
+### Backend
+
+* FastAPI
+* SQLAlchemy
+* Alembic
+* PostgreSQL intent / SQLite development fallback
+* ARQ + Redis
+* JWT/bcrypt foundation
+* application CRUD
+* document upload endpoint
+* NIC service
+* AI extraction service
+* validation engine
+* Playwright service
+* workflow/state-machine skeleton
+* WebSocket bridge
+* initial tests
+
+The audit confirms that this architecture is substantially present. 
+
+### Frontend
+
+You already have:
+
+* Next.js 16.3.3
+* React 19
+* TypeScript strict mode
+* Tailwind 4
+* shadcn/Base UI primitives
+* applications pages
+* dashboard/Kanban
+* application workspace
+* NIC review
+* OTP modal
+
+But the frontend is nowhere near complete platform coverage.  
+
+So this is:
+
+> **Refactor + complete + harden**
+
+not:
+
+> **throw everything away**
+
+---
+
+# 2. The actual current state
+
+This is the important diagnosis.
+
+## Working foundation
+
+```text
+Auth primitives       ✓
+Application CRUD      ✓
+Database models       ✓
+Migrations            ✓
+Document endpoint     ✓
+NIC search            ✓
+NIC approval          ✓
+ARQ                   ✓
+Redis                 ✓
+Basic UI              ✓
+```
+
+## Half-working
+
+```text
+OCR
+AI extraction
+Validation
+Workflow execution
+OTP
+Playwright
+WebSocket updates
+```
+
+## Missing
+
+```text
+Real login UX
+RBAC enforcement
+Client backend
+Document management UI
+Automations dashboard
+Workflow dashboard
+AI dashboard
+Approval center
+Audit timeline
+Certificate lifecycle
+Branch management
+User management
+Real settings
+API contract layer
+Real reports
+Complete navigation
+```
+
+The project audit explicitly identifies these gaps. 
+
+---
+
+# 3. Critical rule: don't delete everything
+
+Your earlier idea was effectively:
+
+> delete the mocked frontend and rebuild the backend.
+
+I would change that.
+
+Do this instead:
+
+```text
+CURRENT PROJECT
+       ↓
+AUDIT
+       ↓
+CLASSIFY CODE
+
+KEEP
+REFACTOR
+REPLACE
+DELETE
+ADD
+```
+
+For example:
+
+### Keep
+
+```text
+SQLAlchemy models
+Alembic setup
+ARQ setup
+NIC architecture
+Playwright service abstraction
+FastAPI module organization
+UI primitives
+```
+
+### Replace
+
+```text
+hardcoded auth
+mock OCR
+mock clients
+mock documents
+mock reports
+mock users
+direct WS refetch logic
+incomplete Playwright worker
+```
+
+### Add
+
+```text
+real auth UI
+RBAC
+document workspace
+AI factory
+workflow dashboard
+automation dashboard
+approval center
+audit center
+certificate lifecycle
+Udyam workflow system
+```
+
+---
+
+# 4. First technical correction: database
+
+Your intended architecture says PostgreSQL, but the current implementation is actually using SQLite because the configuration defaults override the intended Postgres environment. 
+
+So:
+
+### Development
+
+```text
+PostgreSQL
+```
+
+Use the same database engine family as production.
+
+Don't maintain:
+
+```text
+SQLite logic
++
+PostgreSQL logic
+```
+
+unless you have a specific testing reason.
+
+### Goal
+
+```text
+Local Docker
+PostgreSQL
+    ↓
+Staging PostgreSQL
+    ↓
+Production PostgreSQL
+```
+
+This eliminates database behavior drift.
+
+---
+
+# 5. Phase 0 — Codebase stabilization
+
+Before adding new features:
+
+## Backend fixes
+
+Fix:
+
+```text
+CORS
+raw exception leakage
+startup lifecycle
+duplicate imports
+JWT secret
+datetime.utcnow
+Redis connection handling
+database configuration
+state machine bypass
+workflow current_node persistence
+role checks
+```
+
+The audit specifically identifies these issues. 
+
+### Frontend fixes
+
+Fix:
+
+```text
+hardcoded authentication
+missing TypeScript components
+mock data
+light/dark inconsistency
+missing React Query
+missing Zod
+missing RHF
+missing Zustand where useful
+WebSocket duplication
+localhost proxy
+missing auth gate
+```
+
+These are explicitly documented in the frontend audit.  
+
+### Deliverable
+
+Existing application still starts, tests still run, and architecture is clean enough to continue.
+
+---
+
+# 6. Phase 1 — Proper platform shell
+
+Now make the application actually feel like a platform.
+
+## Routes
+
+```text
+/login
+
+/dashboard
+/work-queue
+
+/applications
+/applications/new
+/applications/:id
+
+/clients
+/clients/:id
+
+/documents
+
+/automations
+/workflows
+/ai
+/approvals
+
+/integrations
+/notifications
+/reports
+/audit
+
+/admin/users
+/admin/roles
+/admin/branches
+/admin/settings
+```
+
+The current frontend has only eight routes and is missing Automations, Workflows and AI Agents entirely. 
+
+### Deliverable
+
+Real navigation exists before deeper functionality is added.
+
+---
+
+# 7. Phase 2 — Real authentication and authorization
+
+This should be fixed early, not later.
+
+## Login
+
+```text
+/login
+```
+
+Flow:
+
+```text
+Email
+Password
+ ↓
+POST /api/v1/auth/login
+ ↓
+Access token
++
+refresh session
+ ↓
+/dashboard
+```
+
+The current implementation auto-logs in with hardcoded operator credentials, which must be removed. 
+
+## Roles
+
+Freeze naming.
+
+I recommend:
+
+```text
+SUPER_ADMIN
+BRANCH_ADMIN
+OPERATOR
+REVIEWER
+```
+
+Remove the current inconsistency between `REVIEWER`, `REVIEWER_AUDITOR`, `BRANCH_ADMIN`, and `BRANCH_MANAGER`. 
+
+## Authorization
+
+Every protected endpoint:
+
+```text
+JWT
+ ↓
+user
+ ↓
+role
+ ↓
+branch scope
+ ↓
+resource access
+```
+
+The existing `require_roles()` exists but isn't actually being used. 
+
+### Deliverable
+
+You can log in as four different users and prove that permissions actually work.
+
+---
+
+# 8. Phase 3 — Canonical data architecture
+
+Now fix the data model before adding more UI.
+
+Your current model already contains many Udyam-specific fields and an `application_units` extension. 
+
+Expand the canonical structure to:
+
+```text
+Client
+│
+├── Identity
+├── Contact
+├── Supporting Documents
+│
+└── Applications[]
+      │
+      ├── Workflow
+      ├── Applicant
+      ├── Entity
+      ├── Ownership
+      ├── Official Address
+      ├── Units[]
+      ├── Legacy UAM/EM-II
+      ├── Bank
+      ├── Activities[]
+      ├── NIC Activities[]
+      ├── Employment
+      ├── Investment
+      ├── Turnover
+      ├── Optional Services
+      ├── DIC
+      ├── Declarations
+      ├── Verifications
+      ├── Portal Session
+      ├── Approvals
+      └── Artifacts
+```
+
+---
+
+# 9. Very important: separate internal dossier from Udyam submission
+
+This should now become an official architecture rule.
+
+```text
+                  TAXLA INTERNAL DATA
+                         │
+                         ▼
+                  CANONICAL DOSSIER
+                         │
+                         ▼
+                  UDYAM MAPPING
+                         │
+                         ▼
+                UDYAM SUBMISSION DATA
+                         │
+                         ▼
+                   PORTAL EXECUTOR
+```
+
+This prevents your database from becoming a direct copy of HTML form fields.
+
+---
+
+# 10. Document system — rebuild properly
+
+The current document pipeline is fake at OCR level: the worker currently injects hardcoded text instead of reading the uploaded document. 
+
+This is one of the first things that must become real.
+
+## Document lifecycle
+
+```text
+UPLOADED
+ ↓
+STORED
+ ↓
+CLASSIFYING
+ ↓
+OCR_PROCESSING
+ ↓
+OCR_COMPLETED
+ ↓
+EXTRACTING
+ ↓
+EXTRACTED
+ ↓
+VALIDATING
+ ↓
+READY_FOR_REVIEW
+ ↓
+APPROVED
+```
+
+Failure:
+
+```text
+→ EXCEPTION
+```
+
+---
+
+# 11. Internal documents
+
+Remember the official Udyam portal is paperless.
+
+The official portal states Udyam registration is free and paperless, and the portal is the Government of India's official registration system. ([Udyam Registration][1])
+
+Therefore your UI should say:
+
+> **Taxla Supporting Documents**
+
+not:
+
+> **Upload documents required by Udyam**
+
+These are internal documents used by Taxla to prepare and verify the application.
+
+---
+
+# 12. Document storage
+
+Implement:
+
+```text
+storage/
+│
+├── applications/
+│   └── {application_id}/
+│       ├── source/
+│       ├── processed/
+│       ├── ocr/
+│       ├── evidence/
+│       └── certificates/
+│
+└── errors/
+```
+
+Every uploaded file gets:
+
+```text
+document_id
+sha256
+mime_type
+size
+source
+uploaded_by
+created_at
+```
+
+---
+
+# 13. Real OCR pipeline
+
+Replace this:
+
+```text
+mock_ocr_text = ...
+```
+
+with:
+
+```text
+PDF/image
+ ↓
+preprocessing
+ ↓
+PaddleOCR
+ ↓
+OCR JSON
+ ↓
+document-specific extraction
+```
+
+The audit explicitly says the current OCR is still hardcoded. 
+
+For Windows development, don't make the whole platform dependent on a native OCR installation. Use a documented worker/container strategy so the development environment behaves like deployment.
+
+---
+
+# 14. Extraction architecture
+
+Create:
+
+```text
+ExtractionService
+```
+
+with schemas:
+
+```text
+AadhaarExtraction
+PANExtraction
+BankExtraction
+EnterpriseExtraction
+AddressExtraction
+```
+
+Each extracted field:
+
+```text
+value
+confidence
+source_document
+source_page
+extraction_method
+```
+
+---
+
+# 15. Cross-document verification
+
+Then create:
+
+```text
+CrossDocumentValidationService
+```
+
+Example:
+
+```text
+Aadhaar name
+      +
+PAN name
+      +
+Bank name
+      ↓
+Consistency analysis
+```
+
+Output:
+
+```text
+MATCH
+POTENTIAL_MISMATCH
+CONFLICT
+UNKNOWN
+```
+
+This becomes a real Taxla feature.
+
+---
+
+# 16. Phase 4 — AI Factory
+
+Your AI architecture should become:
+
+```text
+AI FACTORY
+│
+├── Document Classification
+├── Entity Extraction
+├── Business Understanding
+├── NIC Candidate Generation
+├── NIC Reranking
+└── Validation Assistant
+```
+
+The current document says the AI agents should be single-purpose calls rather than autonomous loops. Keep that. 
+
+---
+
+# 17. Model gateway
+
+Build:
+
+```text
+LLMProvider
+│
+├── OllamaProvider
+├── FutureHostedProvider
+└── FuturePrivateProvider
+```
+
+Don't make application code call Ollama directly everywhere.
+
+---
+
+# 18. Agent rules
+
+Every agent:
+
+```text
+Input schema
+Output schema
+Prompt version
+Model
+Temperature/settings
+Tool permissions
+Validation
+Retry policy
+```
+
+And:
+
+```text
+AI
+ ↓
+JSON
+ ↓
+Pydantic
+ ↓
+Business validation
+ ↓
+Persistence
+```
+
+The existing build rules correctly insist that malformed AI output must fail closed and that AI cannot mutate canonical application state. 
+
+Keep that.
+
+---
+
+# 19. Phase 5 — NIC engine
+
+Your current NIC architecture is one of the better parts.
+
+Keep:
+
+```text
+Tier A
+Exact/fuzzy search
+
+Tier B
+Embedding retrieval
+
+Tier C
+LLM reranking
+```
+
+The current implementation already has this 3-tier intent. 
+
+But fix one major problem:
+
+### Current dataset
+
+Only ~94 codes.
+
+The audit says the official dataset should be much larger and the current subset will miss many activities. 
+
+So:
+
+```text
+official NIC data
+ ↓
+validated import
+ ↓
+versioned DB
+ ↓
+search index
+ ↓
+embedding index
+```
+
+---
+
+# 20. Multiple activities
+
+The official Udyam portal currently states that an enterprise should not file multiple Udyam registrations, but any number of activities can be specified or added within one registration. ([Udyam Registration][2])
+
+Therefore:
+
+```text
+Application
+  └── NIC Activities[]
+```
+
+not one `nic_code`.
+
+---
+
+# 21. Phase 6 — Udyam domain engine
+
+Now build the actual government-domain logic.
+
+Create:
+
+```text
+domains/udyam/
+```
+
+with:
+
+```text
+eligibility
+applicant
+entity
+ownership
+address
+units
+bank
+business
+nic
+employment
+financial
+declarations
+verification
+certificate
+```
+
+---
+
+# 22. Dynamic questionnaire
+
+The UI shouldn't be a giant 100-field form.
+
+Instead:
+
+```text
+organisation_type
+        ↓
+question resolver
+        ↓
+applicable fields
+```
+
+Example:
+
+```text
+PROPRIETORSHIP
+→ proprietor questions
+
+COMPANY
+→ authorised-signatory/company questions
+
+PARTNERSHIP
+→ partnership questions
+```
+
+This reduces mistakes.
+
+---
+
+# 23. Udyam registration wizard
+
+Your internal Taxla route:
+
+```text
+/applications/:id/data
+```
+
+should have logical sections:
+
+```text
+01 Applicant
+02 Organisation
+03 Ownership
+04 Official Address
+05 Units
+06 Legacy Registration
+07 Bank
+08 Business Activity
+09 NIC
+10 Employment
+11 Investment
+12 Turnover
+13 Government Service Preferences
+14 DIC
+15 Declaration
+16 Verification
+17 Final Review
+```
+
+This is your internal UX representation of the government-domain data model.
+
+---
+
+# 24. Government-data layer
+
+The current official portal says PAN/GST-linked information can be retrieved from government databases and used for investment/turnover/classification. ([Udyam Registration][1])
+
+So build:
+
+```text
+DataSource
+├── USER
+├── INTERNAL_DOCUMENT
+├── GOVERNMENT_DATA
+├── AI
+└── HUMAN_APPROVED
+```
+
+Every canonical field should know its provenance.
+
+---
+
+# 25. MSME classification engine
+
+Current official thresholds:
+
+```text
+MICRO
+Investment ≤ ₹2.5 Cr
+Turnover ≤ ₹10 Cr
+
+SMALL
+Investment ≤ ₹25 Cr
+Turnover ≤ ₹100 Cr
+
+MEDIUM
+Investment ≤ ₹125 Cr
+Turnover ≤ ₹500 Cr
+```
+
+These are the current official thresholds. ([Udyam Registration][1])
+
+Create:
+
+```text
+MSMEClassificationService
+```
+
+with versioned rules.
+
+Never ask the LLM to determine the classification.
+
+---
+
+# 26. Phase 7 — workflow engine
+
+The current workflow engine is too incomplete.
+
+The audit specifically says:
+
+> `Workflow.current_node` is created but never properly advanced/persisted. 
+
+Fix it.
+
+Every workflow execution needs:
+
+```text
+workflow_id
+version
+application_id
+current_node
+status
+checkpoint
+started_at
+updated_at
+completed_at
+```
+
+---
+
+# 27. Workflow implementation model
+
+For V1:
+
+**hardcoded deterministic DAG is fine.**
+
+Keep:
+
+```text
+NODE_INIT
+NODE_DOCUMENT_UPLOAD
+NODE_OCR_EXTRACT
+NODE_DATA_REVIEW
+NODE_NIC
+NODE_PORTAL
+NODE_HUMAN_CHALLENGE
+NODE_FINAL_REVIEW
+NODE_COMPLETE
+```
+
+Don't build a visual workflow editor yet.
+
+The existing documentation explicitly chose a hardcoded DAG for V1. 
+
+---
+
+# 28. Atomic state transition
+
+This remains a core rule:
+
+```text
+BEGIN TRANSACTION
+
+update application/workflow state
+
+write workflow event
+
+write audit event
+
+COMMIT
+```
+
+Never:
+
+```text
+update state
+...
+crash
+...
+event lost
+```
+
+Your documentation already requires atomic transitions and append-only workflow context. 
+
+---
+
+# 29. Trigger-action architecture
+
+This is currently missing completely. 
+
+Implement:
+
+```text
+EVENT
+ ↓
+EventDispatcher
+ ↓
+Action Registry
+ ↓
+ARQ Job
+```
+
+Example:
+
+```text
+DOCUMENT_UPLOADED
+ ↓
+RunOCR
+
+DATA_REVIEW_APPROVED
+ ↓
+SuggestNIC
+
+NIC_APPROVED
+ ↓
+StartPortalAutomation
+
+HUMAN_CHALLENGE_COMPLETED
+ ↓
+ResumePortalAutomation
+```
+
+And keep your strongest rule:
+
+> **LLM cannot dispatch actions.**
+
+Only:
+
+```text
+Authenticated API
+OR
+Workflow Engine
+```
+
+may cause state-changing triggers. 
+
+---
+
+# 30. Phase 8 — real Playwright architecture
+
+This needs substantial work.
+
+The current Playwright worker doesn't actually fill the intended form; the audit says it navigates and then effectively jumps to OTP. 
+
+Build:
+
+```text
+UdyamAutomation
+│
+├── BrowserManager
+├── SessionManager
+├── PageObjects
+├── FieldMapper
+├── CheckpointManager
+├── EvidenceCapture
+└── ErrorRecovery
+```
+
+---
+
+# 31. The portal execution model
+
+```text
+Approved canonical data
+       ↓
+Udyam field mapping
+       ↓
+Portal executor
+       ↓
+Page object
+       ↓
+Field action
+       ↓
+Portal response
+       ↓
+Checkpoint
+```
+
+Each browser step should write:
+
+```text
+STARTED
+COMPLETED
+FAILED
+```
+
+---
+
+# 32. Human challenge system
+
+Do not create a system that only understands OTP.
+
+Build:
+
+```text
+HUMAN_CHECKPOINT
+├── OTP
+├── CAPTCHA / verification code
+├── Review
+├── Correction
+└── Exception
+```
+
+This is especially important because the current official Udyami login page includes a verification-code/captcha field. ([Udyam Registration][3])
+
+---
+
+# 33. OTP architecture
+
+Current code uses Redis Pub/Sub and WebSocket, which is structurally reasonable, but the durable state must be in your database. 
+
+Use:
+
+```text
+Portal worker
+ ↓
+Human checkpoint created
+ ↓
+DB checkpoint persisted
+ ↓
+Worker released
+ ↓
+UI notification
+ ↓
+Human submits OTP
+ ↓
+API validates
+ ↓
+DB checkpoint updated
+ ↓
+Resume job queued
+ ↓
+New worker resumes
+```
+
+Do **not** make Redis the durable source of truth.
+
+---
+
+# 34. Phase 9 — application workspace
+
+Now rebuild the application's primary UI.
+
+## Header
+
+```text
+MSME-00123
+Arun Garments
+New Udyam Registration
+
+STATUS
+NIC Review
+```
+
+Actions are state-driven.
+
+---
+
+# 35. Workspace layout
+
+```text
+┌─────────────────────────────────────────────────┐
+│ Application Header                              │
+├───────────────┬─────────────────────────────────┤
+│ Documents     │ Current task                    │
+│               │                                 │
+│ Data          │ AI results                      │
+│               │                                 │
+│ NIC           │ Validation                      │
+│               │                                 │
+│ Workflow      │ Human actions                   │
+│               │                                 │
+│ Timeline      │                                 │
+└───────────────┴─────────────────────────────────┘
+```
+
+The current workspace is much thinner than the planned split-pane design and lacks the document viewer/extracted-data workflow. 
+
+---
+
+# 36. Documents tab
+
+```text
+Documents
+│
+├── Aadhaar
+├── PAN
+├── Bank Proof
+├── Supporting Documents
+└── Evidence
+```
+
+Every document:
+
+```text
+Preview
+OCR
+Extraction
+Confidence
+Validation
+History
+```
+
+---
+
+# 37. Data tab
+
+Show all canonical fields with provenance:
+
+```text
+Name
+Arun Kumar
+Source: Aadhaar
+Confidence: 99%
+Human verified ✓
+```
+
+This is much more valuable than raw form fields.
+
+---
+
+# 38. NIC tab
+
+Show:
+
+```text
+Business description
+↓
+Candidate codes
+↓
+Scores
+↓
+Rationale
+↓
+Human approval
+```
+
+Multiple activity cards.
+
+---
+
+# 39. Workflow tab
+
+Show actual state:
+
+```text
+✓ Documents
+✓ OCR
+✓ Data
+✓ NIC
+● Portal
+○ Human challenge
+○ Final review
+○ Certificate
+```
+
+Click node → execution details.
+
+---
+
+# 40. Automation tab
+
+Show:
+
+```text
+Browser session
+Portal URL
+Current page
+Current action
+Last screenshot
+Execution log
+```
+
+This is where the demo becomes impressive.
+
+---
+
+# 41. Approval tab
+
+All human actions:
+
+```text
+Document Review
+NIC Approval
+Exception Review
+Final Submission Approval
+```
+
+---
+
+# 42. Timeline
+
+Replace the current placeholder timeline. The audit explicitly notes the current placeholder. 
+
+Use:
+
+```text
+10:31 Application created
+10:32 Documents uploaded
+10:33 OCR completed
+10:34 Data extracted
+10:35 Validation
+10:36 NIC generated
+10:37 NIC approved
+10:38 Portal started
+10:40 Human challenge
+...
+```
+
+---
+
+# 43. Phase 10 — clients
+
+Current clients page is mock-only. 
+
+Build:
+
+```text
+/clients
+```
+
+Functions:
+
+```text
+Create
+Search
+Filter
+Open
+Edit
+Archive
+View applications
+View documents
+View certificates
+```
+
+---
+
+# 44. Phase 11 — global documents
+
+Current documents page is also mock-only. 
+
+Build:
+
+```text
+/documents
+```
+
+Functions:
+
+```text
+Search
+Filter
+Preview
+Download
+Reprocess
+Find parent application
+View extraction
+```
+
+---
+
+# 45. Phase 12 — Automations
+
+Build:
+
+```text
+/automations
+```
+
+Cards:
+
+```text
+Udyam New Registration
+Udyam Update
+Udyam Cancellation
+Udyam Verify
+Udyam Print Certificate
+Forgot Number
+UAM Migration
+Assisted Migration
+UAP
+```
+
+Each opens its workflow specification.
+
+---
+
+# 46. Phase 13 — Workflows
+
+Build:
+
+```text
+/workflows
+```
+
+Show:
+
+```text
+Workflow
+Version
+Status
+Executions
+Success rate
+Last execution
+```
+
+Don't expose a builder yet.
+
+---
+
+# 47. Phase 14 — AI Factory
+
+Build:
+
+```text
+/ai
+```
+
+Tabs:
+
+```text
+Models
+Agents
+Prompts
+Runs
+Evaluations
+```
+
+This is currently completely absent from the frontend. 
+
+---
+
+# 48. Phase 15 — Reports
+
+Current reports are hardcoded. 
+
+Replace them with DB queries.
+
+Metrics:
+
+```text
+Applications
+Completion rate
+Average time
+Human intervention
+OCR accuracy
+NIC correction rate
+Portal success
+Failures
+```
+
+---
+
+# 49. Phase 16 — Administration
+
+Build:
+
+```text
+/admin/users
+/admin/branches
+/admin/roles
+/admin/settings
+```
+
+Current `/users` is mock-only. 
+
+---
+
+# 50. Phase 17 — Udyam secondary workflows
+
+Once **New Registration** works:
+
+### Update
+
+```text
+Existing Udyam
+→ Authentication
+→ Load data
+→ Edit
+→ Review
+→ Submit
+```
+
+### Cancellation
+
+```text
+Existing Udyam
+→ Authentication
+→ Reason
+→ Review
+→ Submit
+→ Processing
+```
+
+### Print Certificate
+
+```text
+Existing Udyam
+→ Authenticate
+→ Retrieve
+→ Store artifact
+```
+
+### Verify
+
+```text
+Udyam number
+→ Verify
+→ result
+```
+
+### Forgot Number
+
+The current official page supports Udyam/UAM selection, mobile/email OTP and returning registered number(s). ([Udyam Registration][4])
+
+### UAM Migration
+
+Separate workflow.
+
+### Assisted Migration
+
+Separate workflow.
+
+### UAP
+
+Separate domain.
+
+Don't merge them into one giant conditional workflow.
+
+---
+
+# 51. Current official portal data should be versioned
+
+Your external Udyam connector should maintain:
+
+```text
+portal_reference_version
+verified_at
+source_url
+workflow_version
+field_mapping_version
+selector_version
+```
+
+Why?
+
+Because the official site is a living system.
+
+The current circular page already contains changes such as the revised 2025 classification, DigiLocker acceptance, UAP activity and update/cancellation-related material. ([Udyam Registration][5])
+
+---
+
+# 52. Certificate lifecycle
+
+Do:
+
+```text
+SUBMITTED
+ ↓
+PROCESSING
+ ↓
+REGISTERED
+ ↓
+CERTIFICATE_AVAILABLE
+ ↓
+RETRIEVED
+```
+
+The official portal says a permanent registration number is provided and the certificate is issued online. ([Udyam Registration][6])
+
+The current portal also presents verification/application-detail functionality, so certificate retrieval and verification should be separate concepts. ([Udyam Registration][7])
+
+---
+
+# 53. Phase 18 — audit
+
+Every meaningful mutation:
+
+```text
+actor
+action
+application
+before
+after
+timestamp
+result
+```
+
+Examples:
+
+```text
+NIC_APPROVED
+FIELD_CORRECTED
+OTP_VERIFIED
+FINAL_APPROVAL
+SUBMISSION
+CERTIFICATE_RETRIEVED
+USER_CREATED
+ROLE_CHANGED
+```
+
+No secrets.
+
+---
+
+# 54. Phase 19 — WebSocket/SSE
+
+Your current WebSocket architecture broadcasts and causes full-page refetches on every message. 
+
+Fix this.
+
+Use one shared subscription layer.
+
+Messages:
+
+```text
+APPLICATION_UPDATED
+WORKFLOW_UPDATED
+DOCUMENT_UPDATED
+CHECKPOINT_CREATED
+EXECUTION_UPDATED
+NOTIFICATION_CREATED
+```
+
+Then invalidate only the relevant query.
+
+---
+
+# 55. Phase 20 — frontend data architecture
+
+Use:
+
+```text
+TanStack Query
+```
+
+for server state.
+
+Use:
+
+```text
+Zustand
+```
+
+only for genuine UI state.
+
+Use:
+
+```text
+React Hook Form
++
+Zod
+```
+
+for complex forms.
+
+The current frontend has none of these despite the specification calling for them. 
+
+---
+
+# 56. TypeScript cleanup
+
+Rename:
+
+```text
+Sidebar.jsx
+KanbanDashboard.jsx
+ApplicationWorkspace.jsx
+NICReviewPanel.jsx
+OTPInputModal.jsx
+```
+
+to `.tsx`.
+
+Create interfaces.
+
+The current project explicitly violates the TypeScript requirement here. 
+
+---
+
+# 57. UI component library
+
+Add:
+
+```text
+StatusBadge
+ConfidenceIndicator
+DataField
+DocumentViewer
+ExtractedDataForm
+WorkflowStepper
+DataTableToolbar
+ApprovalPanel
+ExecutionTimeline
+```
+
+The current project is missing these abstractions. 
+
+---
+
+# 58. Design system decision
+
+Stop the light/dark split.
+
+The current project has dark global styles mixed with light page styles. 
+
+Choose one visual language.
+
+For this product I would use:
+
+**clean dark enterprise control-room UI**
+
+with restrained surfaces, strong status colors, subtle motion and excellent readability.
+
+Don't turn every card into glassmorphism.
+
+Use it selectively.
+
+---
+
+# 59. Phase 21 — error system
+
+Use RFC 7807 as already planned.
+
+Example:
+
+```json
+{
+  "type": "https://taxla.local/errors/portal-timeout",
+  "title": "Portal timeout",
+  "status": 504,
+  "code": "PORTAL_TIMEOUT",
+  "detail": "The external page did not respond in time.",
+  "trace_id": "..."
+}
+```
+
+The existing project already has a global Problem Details direction, so retain that. 
+
+---
+
+# 60. Phase 22 — testing
+
+Your current test foundation exists, which is good. 
+
+Expand it.
+
+### Unit
+
+```text
+validation
+classification
+state transitions
+permission rules
+NIC logic
+financial logic
+```
+
+### Integration
+
+```text
+API
+DB
+Redis
+AI
+OCR
+storage
+```
+
+### Workflow
+
+```text
+complete workflow
+exception workflow
+resume workflow
+```
+
+### Browser
+
+```text
+every mock portal page
+every checkpoint
+every failure
+```
+
+### E2E
+
+```text
+login
+→ client
+→ application
+→ docs
+→ AI
+→ NIC
+→ automation
+→ OTP
+→ review
+→ certificate
+```
+
+---
+
+# 61. Phase 23 — AI evaluation
+
+The documentation already has a strong evaluation idea:
+
+```text
+50 clean docs
+50 noisy docs
+100 business descriptions
+```
+
+with defined extraction/NIC metrics. 
+
+Keep the benchmark.
+
+But don't blindly accept the current thresholds as truth.
+
+Treat them as **engineering targets to validate**.
+
+---
+
+# 62. Phase 24 — official portal connector
+
+Here is where I would be careful.
+
+For **development**:
+
+```text
+MOCK_PORTAL
+```
+
+For controlled integration:
+
+```text
+OFFICIAL_PORTAL_TEST_MODE
+```
+
+For production:
+
+```text
+OFFICIAL_PORTAL_PRODUCTION
+```
+
+Do not mix credentials or browser profiles between environments.
+
+And never build CAPTCHA bypassing.
+
+Human challenge is a first-class capability.
+
+---
+
+# 63. Phase 25 — concurrency
+
+Your original architecture wants multiple registrations running simultaneously.
+
+Implement:
+
+```text
+Redis
+│
+├── default
+├── AI
+└── browser
+```
+
+And per application:
+
+```text
+SETNX lock:application:{id}
+```
+
+The existing documentation already specifies pessimistic locking and yielding workers when waiting for OTP. 
+
+Keep that.
+
+---
+
+# 64. Phase 26 — worker behavior
+
+Correct:
+
+```text
+App A
+→ browser
+→ human challenge
+→ checkpoint saved
+→ worker released
+
+App B
+→ browser
+→ continues
+
+App C
+→ OCR
+
+App A
+→ later resume
+```
+
+This is the scalability story you should demonstrate.
+
+---
+
+# 65. Phase 27 — observability
+
+Add:
+
+```text
+request_id
+execution_id
+application_id
+workflow_id
+node_id
+worker_id
+```
+
+Every log can then be traced.
+
+Dashboard:
+
+```text
+Workers
+Queues
+AI latency
+OCR latency
+Browser latency
+Failures
+```
+
+---
+
+# 66. Phase 28 — security hardening
+
+Before calling this production:
+
+```text
+JWT
+refresh tokens
+RBAC
+branch isolation
+secure cookies
+CSRF strategy where relevant
+rate limits
+file validation
+secret management
+audit
+encryption
+backup
+recovery
+```
+
+The current hardcoded JWT secret must disappear. 
+
+---
+
+# 67. Phase 29 — documentation synchronization
+
+Every implementation change must update the relevant document.
+
+Rule:
+
+```text
+Code changed
+ ↓
+Does behavior change?
+ ↓
+YES
+ ↓
+Update spec
+```
+
+This prevents the exact situation you're dealing with now six months later.
+
+---
+
+# 68. Phase 30 — staging
+
+Create:
+
+```text
+DEV
+STAGING
+PRODUCTION
+```
+
+### DEV
+
+```text
+synthetic data
+mock portal
+local AI
+```
+
+### STAGING
+
+```text
+synthetic data
+controlled external testing
+real deployment architecture
+```
+
+### PRODUCTION
+
+```text
+approved customer data
+approved government integration
+private/controlled AI
+full security
+```
+
+---
+
+# 69. What I would NOT build yet
+
+Even though you're building the "entire thing", sequence matters.
+
+Do **not** start with:
+
+```text
+Kubernetes
+EKS
+Kafka
+microservices
+visual workflow builder
+agent swarms
+multi-GPU inference
+billing
+Stripe
+10 external integrations
+```
+
+The current project explicitly chose a modular monolith for V1, and that is the correct call. 
+
+---
+
+# 70. What the completed product looks like
+
+Eventually:
+
+```text
+                        TAXLA
+                         │
+             ┌───────────┼───────────┐
+             ▼           ▼           ▼
+          CLIENTS     WORK QUEUE   REPORTS
+             │
+             ▼
+       APPLICATIONS
+             │
+    ┌────────┼─────────┐
+    ▼        ▼         ▼
+ DOCUMENTS  AI        WORKFLOW
+    │        │         │
+    │        ├─ OCR    ├─ State
+    │        ├─ Extract├─ Nodes
+    │        ├─ NIC    ├─ Events
+    │        └─ Eval   └─ Checkpoints
+    │
+    └────────────┬─────────────┐
+                 ▼             ▼
+             HUMAN          AUTOMATION
+             REVIEW             │
+                 │              ▼
+                 │         UDYAM CONNECTOR
+                 │              │
+                 │         Playwright
+                 │              │
+                 │         Human Challenge
+                 │              │
+                 └──────────────┘
+                        │
+                        ▼
+                    CERTIFICATE
+                        │
+                        ▼
+                  AUDIT / ARTIFACTS
+```
+
+---
+
+# 71. Your real implementation phases
+
+I would now officially freeze the roadmap as:
+
+```text
+PHASE 0
+Codebase Audit + Architecture Freeze
+
+PHASE 1
+Foundation Stabilization
+
+PHASE 2
+Authentication + RBAC
+
+PHASE 3
+Core Data + Client/Application Platform
+
+PHASE 4
+Document Management + Real OCR
+
+PHASE 5
+AI Extraction + Validation
+
+PHASE 6
+NIC Intelligence
+
+PHASE 7
+Complete Udyam Domain Model
+
+PHASE 8
+Workflow + State Machine
+
+PHASE 9
+Human Checkpoint / Approval Engine
+
+PHASE 10
+Playwright + Udyam Connector
+
+PHASE 11
+OTP / CAPTCHA Human Challenge + Resume
+
+PHASE 12
+Certificate + Artifact Lifecycle
+
+PHASE 13
+Operations Dashboard + Work Queue
+
+PHASE 14
+Automations + Workflow + AI Factory dashboards
+
+PHASE 15
+Reports + Audit + Monitoring
+
+PHASE 16
+Secondary Udyam Workflows
+
+PHASE 17
+Testing + AI Evaluation
+
+PHASE 18
+Security Hardening
+
+PHASE 19
+Staging
+
+PHASE 20
+Controlled Production Integration
+
+PHASE 21
+GST
+
+PHASE 22
+Tally
+
+PHASE 23
+ITC Reconciliation
+
+PHASE 24
+Financial Statements
+
+PHASE 25
+Tax Notice / RAG
+```
+
+---
+
+# 72. The build order inside the first milestone
+
+For **your current repository**, I would not start by writing new business features.
+
+I would start here:
+
+```text
+1. Fix database configuration
+2. Fix auth/security
+3. Normalize roles
+4. Fix state machine
+5. Fix workflow persistence
+6. Remove hardcoded frontend login
+7. Build real login
+8. Add React Query/Zod/RHF
+9. Convert JSX → TSX
+10. Replace mock clients/documents/users/reports
+11. Build real document pipeline
+12. Replace mocked OCR
+13. Complete extraction
+14. Complete validation
+15. Complete NIC
+16. Complete human review
+17. Complete workflow engine
+18. Complete mock Udyam portal
+19. Complete Playwright
+20. Complete human challenge
+21. Complete certificate flow
+22. Complete audit
+23. Complete tests
+```
+
+That is the **real remediation/build sequence** based on the actual state of your repository—not the earlier hypothetical greenfield plan.
+
+---
+
+# 73. One particularly important correction to your original implementation
+
+Your current project audit says:
+
+> "The backend is a vertical-slice prototype." 
+
+That's exactly how I would treat it.
+
+So don't look at the current code and say:
+
+> "Phase 1 is already done."
+
+It isn't.
+
+Instead:
+
+> **Phase 0 = establish a trustworthy baseline.**
+
+Then:
+
+> **Phase 1 = convert prototype foundation into a production-shaped core.**
+
+Then the actual feature implementation begins.
+
+---
+
+# 74. Final target
+
+At the end of the Udyam program, an operator should be able to do this:
+
+```text
+LOGIN
+ ↓
+DASHBOARD
+ ↓
+NEW APPLICATION
+ ↓
+SELECT UDYAM WORKFLOW
+ ↓
+SELECT CLIENT
+ ↓
+UPLOAD INTERNAL SUPPORTING DOCUMENTS
+ ↓
+OCR
+ ↓
+AI EXTRACTION
+ ↓
+CROSS-DOCUMENT VALIDATION
+ ↓
+REVIEW / CORRECT
+ ↓
+NIC CANDIDATES
+ ↓
+NIC HUMAN APPROVAL
+ ↓
+MSME DATA VALIDATION
+ ↓
+READY FOR PORTAL
+ ↓
+START AUTOMATION
+ ↓
+PLAYWRIGHT
+ ↓
+HUMAN CHALLENGE
+ ↓
+RESUME
+ ↓
+FINAL REVIEW
+ ↓
+FINAL APPROVAL
+ ↓
+SUBMIT
+ ↓
+EXTERNAL PROCESSING
+ ↓
+REGISTRATION RESULT
+ ↓
+CERTIFICATE
+ ↓
+AUDIT
+ ↓
+CLIENT RECORD UPDATED
+```
+
+And simultaneously:
+
+```text
+Application A → OTP waiting
+Application B → OCR
+Application C → Portal
+Application D → Review
+Application E → Completed
+```
+
+That is the actual platform you were trying to build.
+
+The official portal is currently still the Government of India's Udyam system, with the revised MSME limits and the separate Udyam/UAM/UAP ecosystem you described; the current Udyami Login also still uses the Udyam number, registered mobile, OTP option and verification code. ([Udyam Registration][1])
+
+**So the correct next move is not “start coding Phase 1 from the old roadmap.” It is:**
+
+> **repair the existing foundation → complete the real data/document/AI/workflow architecture → build the entire Udyam journey → then add the broader Taxla automation platform on top of the same core.**
+
+That is the implementation plan I would now use as the authoritative roadmap for this project. 
+
+[1]: https://udyamregistration.gov.in/Default.aspx?utm_source=chatgpt.com "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
+[2]: https://udyamregistration.gov.in/?utm_source=chatgpt.com "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
+[3]: https://udyamregistration.gov.in/Udyam_Login.aspx?utm_source=chatgpt.com "Udyami Login"
+[4]: https://udyamregistration.gov.in/ForgotRegNo.aspx?utm_source=chatgpt.com "FORGOT - UAM/UDYAM REGISTRATION NUMBER"
+[5]: https://www.udyamregistration.gov.in/Circular.aspx?utm_source=chatgpt.com "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
+[6]: https://www.udyamregistration.gov.in/?utm_source=chatgpt.com "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
+[7]: https://www.udyamregistration.gov.in/PrintUdyamApplication.aspx?utm_source=chatgpt.com "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
